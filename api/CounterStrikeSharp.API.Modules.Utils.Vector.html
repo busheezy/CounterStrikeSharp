@@ -1,0 +1,926 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Vector
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Vector
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Modules_Utils_Vector.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Modules.Utils.Vector%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Modules.Utils.Vector">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Modules_Utils_Vector" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector" class="text-break">
+    Class Vector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.html">Modules</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.Utils.html">Utils</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A <code>Vector</code> object represents a line with a direction and length.
+Each vector contains three co-ordinates:</p>
+<ul><li><span class="term">X</span>+forward/-backward</li><li><span class="term">Y</span>+left/-right</li><li><span class="term">Z</span>+up/-down</li></ul>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Vector : NativeObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><span class="xref">Vector</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_Handle">NativeObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector__ctor_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.#ctor(System.IntPtr)">
+  Vector(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector__ctor_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector__ctor_System_Nullable_System_Single__System_Nullable_System_Single__System_Nullable_System_Single__" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.#ctor(System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})">
+  Vector(float?, float?, float?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(float? x = null, float? y = null, float? z = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Item_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Item*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Item_System_Int32_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float this[int i] { get; set; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_X_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.X*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_X" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Y_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Y*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Y" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Z_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Z*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Z" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Z">
+  Z
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float Z { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Add_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Add*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Add_CounterStrikeSharp_API_Modules_Utils_Vector_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Add(CounterStrikeSharp.API.Modules.Utils.Vector)">
+  Add(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds values of argument vector to the original vector. Does not create a new vector object, skipping object construction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Vector vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Angle_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Angle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Angle" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Angle">
+  Angle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns an angle that represents the normal of the vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Angle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Angle.html">Angle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Angle_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Angle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Angle_CounterStrikeSharp_API_Modules_Utils_Vector_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Angle(CounterStrikeSharp.API.Modules.Utils.Vector)">
+  Angle(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the angle of the vector, but allows the use of a different 'up' direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Angle(Vector up)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>up</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd><p>Direction for up</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Angle.html">Angle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_IsZero_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.IsZero*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_IsZero" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.IsZero">
+  IsZero()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns whether all fields on the Vector are 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsZero()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Length_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Length" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length">
+  Length()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the Euclidean length of the vector: √x² + y² + z²</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Length()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Euclidean length of vector</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Length2D_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length2D*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Length2D" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length2D">
+  Length2D()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns length of Vector excluding Z axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Length2D()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>2D Length</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_Length2DSqr_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length2DSqr*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_Length2DSqr" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.Length2DSqr">
+  Length2DSqr()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the squared length of the vectors x and y value, x² + y². Faster than <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html#CounterStrikeSharp_API_Modules_Utils_Vector_Length2D">Length2D()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Length2DSqr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_LengthSqr_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.LengthSqr*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_LengthSqr" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.LengthSqr">
+  LengthSqr()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the squared length of the vector, x² + y² + z². Faster than <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html#CounterStrikeSharp_API_Modules_Utils_Vector_Length">Length()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LengthSqr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_ToString_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.ToString*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_ToString" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_With_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.With*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_With_System_Nullable_System_Single__System_Nullable_System_Single__System_Nullable_System_Single__" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.With(System.Nullable{System.Single},System.Nullable{System.Single},System.Nullable{System.Single})">
+  With(float?, float?, float?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with values replaced.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector With(float? x = null, float? y = null, float? z = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd><p>X value to replace with</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd><p>Y value to replace with</p>
+</dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd><p>Z value to replace with</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd><p>Copy of vector</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Addition_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Addition*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Addition_CounterStrikeSharp_API_Modules_Utils_Vector_CounterStrikeSharp_API_Modules_Utils_Vector_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Addition(CounterStrikeSharp.API.Modules.Utils.Vector,CounterStrikeSharp.API.Modules.Utils.Vector)">
+  operator +(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator +(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Division_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Division*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Division_CounterStrikeSharp_API_Modules_Utils_Vector_System_Single_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Division(CounterStrikeSharp.API.Modules.Utils.Vector,System.Single)">
+  operator /(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator /(Vector a, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Multiply_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Multiply*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Multiply_CounterStrikeSharp_API_Modules_Utils_Vector_System_Single_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Multiply(CounterStrikeSharp.API.Modules.Utils.Vector,System.Single)">
+  operator *(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Vector a, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Subtraction_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Subtraction*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_op_Subtraction_CounterStrikeSharp_API_Modules_Utils_Vector_CounterStrikeSharp_API_Modules_Utils_Vector_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_Subtraction(CounterStrikeSharp.API.Modules.Utils.Vector,CounterStrikeSharp.API.Modules.Utils.Vector)">
+  operator -(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Utils_Vector_op_UnaryNegation_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_UnaryNegation*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Utils_Vector_op_UnaryNegation_CounterStrikeSharp_API_Modules_Utils_Vector_" data-uid="CounterStrikeSharp.API.Modules.Utils.Vector.op_UnaryNegation(CounterStrikeSharp.API.Modules.Utils.Vector)">
+  operator -(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector a)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Utils/Vector.cs/#L34" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

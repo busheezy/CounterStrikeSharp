@@ -1,0 +1,1197 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameEvent
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameEvent
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Modules_Events_GameEvent.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Modules.Events.GameEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Modules_Events_GameEvent" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent" class="text-break">
+    Class GameEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.html">Modules</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.Events.html">Events</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameEvent : NativeObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><span class="xref">GameEvent</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAchievementEarned.html">EventAchievementEarned</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAchievementEarnedLocal.html">EventAchievementEarnedLocal</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAchievementEvent.html">EventAchievementEvent</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAchievementInfoLoaded.html">EventAchievementInfoLoaded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAchievementWriteFailed.html">EventAchievementWriteFailed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAddBulletHitMarker.html">EventAddBulletHitMarker</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAddPlayerSonarIcon.html">EventAddPlayerSonarIcon</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAmmoPickup.html">EventAmmoPickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAmmoRefill.html">EventAmmoRefill</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventAnnouncePhaseEnd.html">EventAnnouncePhaseEnd</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBeginNewMatch.html">EventBeginNewMatch</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombAbortdefuse.html">EventBombAbortdefuse</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombAbortplant.html">EventBombAbortplant</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombBeep.html">EventBombBeep</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombBegindefuse.html">EventBombBegindefuse</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombBeginplant.html">EventBombBeginplant</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombDefused.html">EventBombDefused</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombDropped.html">EventBombDropped</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombExploded.html">EventBombExploded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombPickup.html">EventBombPickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBombPlanted.html">EventBombPlanted</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBonusUpdated.html">EventBonusUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBotTakeover.html">EventBotTakeover</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBreakBreakable.html">EventBreakBreakable</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBreakProp.html">EventBreakProp</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBrokenBreakable.html">EventBrokenBreakable</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBulletFlightResolution.html">EventBulletFlightResolution</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBulletImpact.html">EventBulletImpact</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBuymenuClose.html">EventBuymenuClose</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBuymenuOpen.html">EventBuymenuOpen</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventBuytimeEnded.html">EventBuytimeEnded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCartUpdated.html">EventCartUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventChoppersIncomingWarning.html">EventChoppersIncomingWarning</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventClientDisconnect.html">EventClientDisconnect</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventClientLoadoutChanged.html">EventClientLoadoutChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventClientsideLessonClosed.html">EventClientsideLessonClosed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsGameDisconnected.html">EventCsGameDisconnected</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsIntermission.html">EventCsIntermission</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsMatchEndRestart.html">EventCsMatchEndRestart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsPreRestart.html">EventCsPreRestart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsPrevNextSpectator.html">EventCsPrevNextSpectator</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsRoundFinalBeep.html">EventCsRoundFinalBeep</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsRoundStartBeep.html">EventCsRoundStartBeep</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsWinPanelMatch.html">EventCsWinPanelMatch</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventCsWinPanelRound.html">EventCsWinPanelRound</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDecoyDetonate.html">EventDecoyDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDecoyFiring.html">EventDecoyFiring</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDecoyStarted.html">EventDecoyStarted</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDefuserDropped.html">EventDefuserDropped</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDefuserPickup.html">EventDefuserPickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDemoSkip.html">EventDemoSkip</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDemoStart.html">EventDemoStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDemoStop.html">EventDemoStop</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDifficultyChanged.html">EventDifficultyChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDmBonusWeaponStart.html">EventDmBonusWeaponStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDoorBreak.html">EventDoorBreak</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDoorClose.html">EventDoorClose</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDoorClosed.html">EventDoorClosed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDoorMoving.html">EventDoorMoving</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDoorOpen.html">EventDoorOpen</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDroneAboveRoof.html">EventDroneAboveRoof</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDroneCargoDetached.html">EventDroneCargoDetached</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDroneDispatched.html">EventDroneDispatched</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDronegunAttack.html">EventDronegunAttack</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDropRateModified.html">EventDropRateModified</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDynamicShadowLightChanged.html">EventDynamicShadowLightChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventDzItemInteraction.html">EventDzItemInteraction</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEnableRestartVoting.html">EventEnableRestartVoting</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEndmatchCmmStartRevealItems.html">EventEndmatchCmmStartRevealItems</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEndmatchMapvoteSelectingMap.html">EventEndmatchMapvoteSelectingMap</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEnterBombzone.html">EventEnterBombzone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEnterBuyzone.html">EventEnterBuyzone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEnterRescueZone.html">EventEnterRescueZone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEntityKilled.html">EventEntityKilled</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEntityVisible.html">EventEntityVisible</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventEventTicketModified.html">EventEventTicketModified</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventExitBombzone.html">EventExitBombzone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventExitBuyzone.html">EventExitBuyzone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventExitRescueZone.html">EventExitRescueZone</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventFinaleStart.html">EventFinaleStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventFirstbombsIncomingWarning.html">EventFirstbombsIncomingWarning</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventFlareIgniteNpc.html">EventFlareIgniteNpc</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventFlashbangDetonate.html">EventFlashbangDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameEnd.html">EventGameEnd</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameInit.html">EventGameInit</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameMessage.html">EventGameMessage</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameNewmap.html">EventGameNewmap</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGamePhaseChanged.html">EventGamePhaseChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameStart.html">EventGameStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameinstructorDraw.html">EventGameinstructorDraw</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameinstructorNodraw.html">EventGameinstructorNodraw</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGameuiHidden.html">EventGameuiHidden</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGcConnected.html">EventGcConnected</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGgKilledEnemy.html">EventGgKilledEnemy</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGrenadeBounce.html">EventGrenadeBounce</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGrenadeThrown.html">EventGrenadeThrown</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventGuardianWaveRestart.html">EventGuardianWaveRestart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHegrenadeDetonate.html">EventHegrenadeDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHelicopterGrenadePuntMiss.html">EventHelicopterGrenadePuntMiss</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHideDeathpanel.html">EventHideDeathpanel</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvCameraman.html">EventHltvCameraman</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvChangedMode.html">EventHltvChangedMode</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvChase.html">EventHltvChase</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvChat.html">EventHltvChat</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvFixed.html">EventHltvFixed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvMessage.html">EventHltvMessage</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvRankCamera.html">EventHltvRankCamera</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvRankEntity.html">EventHltvRankEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvReplay.html">EventHltvReplay</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvReplayStatus.html">EventHltvReplayStatus</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvStatus.html">EventHltvStatus</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvTitle.html">EventHltvTitle</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHltvVersioninfo.html">EventHltvVersioninfo</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageCallForHelp.html">EventHostageCallForHelp</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageFollows.html">EventHostageFollows</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageHurt.html">EventHostageHurt</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageKilled.html">EventHostageKilled</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageRescued.html">EventHostageRescued</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageRescuedAll.html">EventHostageRescuedAll</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostageStopsFollowing.html">EventHostageStopsFollowing</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventHostnameChanged.html">EventHostnameChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInfernoExpire.html">EventInfernoExpire</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInfernoExtinguish.html">EventInfernoExtinguish</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInfernoStartburn.html">EventInfernoStartburn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInspectWeapon.html">EventInspectWeapon</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInstructorCloseLesson.html">EventInstructorCloseLesson</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInstructorServerHintCreate.html">EventInstructorServerHintCreate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInstructorServerHintStop.html">EventInstructorServerHintStop</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInstructorStartLesson.html">EventInstructorStartLesson</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventInventoryUpdated.html">EventInventoryUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemEquip.html">EventItemEquip</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemPickup.html">EventItemPickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemPickupFailed.html">EventItemPickupFailed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemPickupSlerp.html">EventItemPickupSlerp</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemPurchase.html">EventItemPurchase</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemRemove.html">EventItemRemove</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemSchemaInitialized.html">EventItemSchemaInitialized</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventItemsGifted.html">EventItemsGifted</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventJointeamFailed.html">EventJointeamFailed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventLocalPlayerControllerTeam.html">EventLocalPlayerControllerTeam</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventLocalPlayerPawnChanged.html">EventLocalPlayerPawnChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventLocalPlayerTeam.html">EventLocalPlayerTeam</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventLootCrateOpened.html">EventLootCrateOpened</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventLootCrateVisible.html">EventLootCrateVisible</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMapShutdown.html">EventMapShutdown</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMapTransition.html">EventMapTransition</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMatchEndConditions.html">EventMatchEndConditions</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMaterialDefaultComplete.html">EventMaterialDefaultComplete</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMbInputLockCancel.html">EventMbInputLockCancel</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMbInputLockSuccess.html">EventMbInputLockSuccess</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventMolotovDetonate.html">EventMolotovDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventNavBlocked.html">EventNavBlocked</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventNavGenerate.html">EventNavGenerate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventNextlevelChanged.html">EventNextlevelChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventOpenCrateInstr.html">EventOpenCrateInstr</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventOtherDeath.html">EventOtherDeath</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventParachuteDeploy.html">EventParachuteDeploy</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventParachutePickup.html">EventParachutePickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPhysgunPickup.html">EventPhysgunPickup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerActivate.html">EventPlayerActivate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerAvengedTeammate.html">EventPlayerAvengedTeammate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerBlind.html">EventPlayerBlind</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerChangename.html">EventPlayerChangename</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerChat.html">EventPlayerChat</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerConnect.html">EventPlayerConnect</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerConnectFull.html">EventPlayerConnectFull</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerDeath.html">EventPlayerDeath</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerDecal.html">EventPlayerDecal</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerDisconnect.html">EventPlayerDisconnect</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerFalldamage.html">EventPlayerFalldamage</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerFootstep.html">EventPlayerFootstep</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerFullUpdate.html">EventPlayerFullUpdate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerGivenC4.html">EventPlayerGivenC4</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerHintmessage.html">EventPlayerHintmessage</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerHurt.html">EventPlayerHurt</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerInfo.html">EventPlayerInfo</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerJump.html">EventPlayerJump</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerPing.html">EventPlayerPing</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerPingStop.html">EventPlayerPingStop</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerRadio.html">EventPlayerRadio</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerResetVote.html">EventPlayerResetVote</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerScore.html">EventPlayerScore</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerShoot.html">EventPlayerShoot</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerSound.html">EventPlayerSound</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerSpawn.html">EventPlayerSpawn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerSpawned.html">EventPlayerSpawned</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerStatsUpdated.html">EventPlayerStatsUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerTeam.html">EventPlayerTeam</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRagdollDissolved.html">EventRagdollDissolved</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventReadGameTitledata.html">EventReadGameTitledata</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRepostXboxAchievements.html">EventRepostXboxAchievements</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventResetGameTitledata.html">EventResetGameTitledata</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundAnnounceFinal.html">EventRoundAnnounceFinal</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundAnnounceLastRoundHalf.html">EventRoundAnnounceLastRoundHalf</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundAnnounceMatchPoint.html">EventRoundAnnounceMatchPoint</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundAnnounceMatchStart.html">EventRoundAnnounceMatchStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundAnnounceWarmup.html">EventRoundAnnounceWarmup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundEnd.html">EventRoundEnd</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundEndUploadStats.html">EventRoundEndUploadStats</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundFreezeEnd.html">EventRoundFreezeEnd</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundMvp.html">EventRoundMvp</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundOfficiallyEnded.html">EventRoundOfficiallyEnded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundPoststart.html">EventRoundPoststart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundPrestart.html">EventRoundPrestart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundStart.html">EventRoundStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundStartPostNav.html">EventRoundStartPostNav</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundStartPreEntity.html">EventRoundStartPreEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventRoundTimeWarning.html">EventRoundTimeWarning</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSeasoncoinLevelup.html">EventSeasoncoinLevelup</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventServerCvar.html">EventServerCvar</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventServerMessage.html">EventServerMessage</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventServerPreShutdown.html">EventServerPreShutdown</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventServerShutdown.html">EventServerShutdown</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventServerSpawn.html">EventServerSpawn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSetInstructorGroupEnabled.html">EventSetInstructorGroupEnabled</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSfuievent.html">EventSfuievent</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventShowDeathpanel.html">EventShowDeathpanel</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventShowSurvivalRespawnStatus.html">EventShowSurvivalRespawnStatus</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSilencerDetach.html">EventSilencerDetach</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSilencerOff.html">EventSilencerOff</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSilencerOn.html">EventSilencerOn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSmokeBeaconParadrop.html">EventSmokeBeaconParadrop</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSmokegrenadeDetonate.html">EventSmokegrenadeDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSmokegrenadeExpired.html">EventSmokegrenadeExpired</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSpecModeUpdated.html">EventSpecModeUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSpecTargetUpdated.html">EventSpecTargetUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventStartHalftime.html">EventStartHalftime</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventStartVote.html">EventStartVote</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventStorePricesheetUpdated.html">EventStorePricesheetUpdated</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalAnnouncePhase.html">EventSurvivalAnnouncePhase</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalNoRespawnsFinal.html">EventSurvivalNoRespawnsFinal</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalNoRespawnsWarning.html">EventSurvivalNoRespawnsWarning</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalParadropBreak.html">EventSurvivalParadropBreak</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalParadropSpawn.html">EventSurvivalParadropSpawn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSurvivalTeammateRespawn.html">EventSurvivalTeammateRespawn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventSwitchTeam.html">EventSwitchTeam</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTagrenadeDetonate.html">EventTagrenadeDetonate</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamInfo.html">EventTeamInfo</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamIntroEnd.html">EventTeamIntroEnd</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamIntroStart.html">EventTeamIntroStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamScore.html">EventTeamScore</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamchangePending.html">EventTeamchangePending</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamplayBroadcastAudio.html">EventTeamplayBroadcastAudio</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTeamplayRoundStart.html">EventTeamplayRoundStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTournamentReward.html">EventTournamentReward</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrExitHintTrigger.html">EventTrExitHintTrigger</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrMarkBestTime.html">EventTrMarkBestTime</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrMarkComplete.html">EventTrMarkComplete</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrPlayerFlashbanged.html">EventTrPlayerFlashbanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrShowExitMsgbox.html">EventTrShowExitMsgbox</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrShowFinishMsgbox.html">EventTrShowFinishMsgbox</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventTrialTimeExpired.html">EventTrialTimeExpired</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUgcFileDownloadFinished.html">EventUgcFileDownloadFinished</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUgcFileDownloadStart.html">EventUgcFileDownloadStart</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUgcMapDownloadError.html">EventUgcMapDownloadError</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUgcMapInfoReceived.html">EventUgcMapInfoReceived</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUgcMapUnsubscribed.html">EventUgcMapUnsubscribed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUpdateMatchmakingStats.html">EventUpdateMatchmakingStats</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventUserDataDownloaded.html">EventUserDataDownloaded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVipEscaped.html">EventVipEscaped</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVipKilled.html">EventVipKilled</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteCast.html">EventVoteCast</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteCastNo.html">EventVoteCastNo</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteCastYes.html">EventVoteCastYes</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteChanged.html">EventVoteChanged</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteEnded.html">EventVoteEnded</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteFailed.html">EventVoteFailed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteOptions.html">EventVoteOptions</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVotePassed.html">EventVotePassed</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventVoteStarted.html">EventVoteStarted</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponFire.html">EventWeaponFire</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponFireOnEmpty.html">EventWeaponFireOnEmpty</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponOutofammo.html">EventWeaponOutofammo</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponReload.html">EventWeaponReload</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponZoom.html">EventWeaponZoom</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponZoomRifle.html">EventWeaponZoomRifle</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWeaponhudSelection.html">EventWeaponhudSelection</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWriteGameTitledata.html">EventWriteGameTitledata</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.EventWriteProfileData.html">EventWriteProfileData</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_Handle">NativeObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent__ctor_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.#ctor(System.IntPtr)">
+  GameEvent(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameEvent(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent__ctor_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent__ctor_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.#ctor(System.String,System.Boolean)">
+  GameEvent(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameEvent(string name, bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_EventName_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.EventName*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_EventName" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.EventName">
+  EventName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EventName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_FireEvent_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.FireEvent*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_FireEvent_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.FireEvent(System.Boolean)">
+  FireEvent(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireEvent(bool dontBroadcast)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dontBroadcast</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_FireEventToClient_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.FireEventToClient*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_FireEventToClient_CounterStrikeSharp_API_Core_CCSPlayerController_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.FireEventToClient(CounterStrikeSharp.API.Core.CCSPlayerController)">
+  FireEventToClient(CCSPlayerController)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireEventToClient(CCSPlayerController player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetBool_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetBool*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetBool_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetBool(System.String)">
+  GetBool(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool GetBool(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetFloat_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetFloat*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetFloat_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetFloat(System.String)">
+  GetFloat(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float GetFloat(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetInt_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetInt*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetInt_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetInt(System.String)">
+  GetInt(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int GetInt(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetPlayer_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetPlayer*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetPlayer_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetPlayer(System.String)">
+  GetPlayer(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CCSPlayerController GetPlayer(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetString_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetString*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetString_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetString(System.String)">
+  GetString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string GetString(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetUint64_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetUint64*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_GetUint64_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.GetUint64(System.String)">
+  GetUint64(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ulong GetUint64(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_Get_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.Get*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_Get__1_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.Get``1(System.String)">
+  Get&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Get&lt;T&gt;(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetBool_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetBool*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetBool_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetBool(System.String,System.Boolean)">
+  SetBool(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetBool(string name, bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetEntity_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetEntity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetEntity_System_String_System_IntPtr_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetEntity(System.String,System.IntPtr)">
+  SetEntity(string, nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetEntity(string name, nint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetEntityIndex_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetEntityIndex*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetEntityIndex_System_String_System_Int32_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetEntityIndex(System.String,System.Int32)">
+  SetEntityIndex(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetEntityIndex(string name, int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetFloat_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetFloat*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetFloat_System_String_System_Single_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetFloat(System.String,System.Single)">
+  SetFloat(string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetFloat(string name, float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetInt_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetInt*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetInt_System_String_System_Int32_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetInt(System.String,System.Int32)">
+  SetInt(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetInt(string name, int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetInt_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetInt*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetInt_System_String_System_Int64_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetInt(System.String,System.Int64)">
+  SetInt(string, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetInt(string name, long value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetString_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetString*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetString_System_String_System_String_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetString(System.String,System.String)">
+  SetString(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetString(string name, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetUint64_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetUint64*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_SetUint64_System_String_System_UInt64_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.SetUint64(System.String,System.UInt64)">
+  SetUint64(string, ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetUint64(string name, ulong value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Events_GameEvent_Set_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.Set*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Events_GameEvent_Set__1_System_String___0_" data-uid="CounterStrikeSharp.API.Modules.Events.GameEvent.Set``1(System.String,``0)">
+  Set&lt;T&gt;(string, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set&lt;T&gt;(string name, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Events/GameEvent.cs/#L33" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

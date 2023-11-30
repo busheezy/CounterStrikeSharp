@@ -1,0 +1,951 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CBaseViewModel
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CBaseViewModel
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Core_CBaseViewModel.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Core.CBaseViewModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Core.CBaseViewModel">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Core_CBaseViewModel" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel" class="text-break">
+    Class CBaseViewModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5136"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CBaseViewModel : CBaseAnimGraph, IEquatable&lt;CEntityInstance&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeEntity.html">NativeEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html">CBaseModelEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html">CBaseAnimGraph</a></div>
+      <div><span class="xref">CBaseViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a>&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CPredictedViewModel.html">CPredictedViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_InitiallyPopulateInterpHistory">CBaseAnimGraph.InitiallyPopulateInterpHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ShouldAnimateDuringGameplayPause">CBaseAnimGraph.ShouldAnimateDuringGameplayPause</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ChoreoServices">CBaseAnimGraph.ChoreoServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_AnimGraphUpdateEnabled">CBaseAnimGraph.AnimGraphUpdateEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_MaxSlopeDistance">CBaseAnimGraph.MaxSlopeDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_LastSlopeCheckPos">CBaseAnimGraph.LastSlopeCheckPos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_AnimGraphDirty">CBaseAnimGraph.AnimGraphDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_Force">CBaseAnimGraph.Force</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ForceBone">CBaseAnimGraph.ForceBone</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_RagdollPose">CBaseAnimGraph.RagdollPose</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ClientRagdoll">CBaseAnimGraph.ClientRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_SetModel_System_String_">CBaseModelEntity.SetModel(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_CRenderComponent">CBaseModelEntity.CRenderComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_CHitboxComponent">CBaseModelEntity.CHitboxComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DissolveStartTime">CBaseModelEntity.DissolveStartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_OnIgnite">CBaseModelEntity.OnIgnite</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderMode">CBaseModelEntity.RenderMode</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderFX">CBaseModelEntity.RenderFX</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_AllowFadeInView">CBaseModelEntity.AllowFadeInView</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Render">CBaseModelEntity.Render</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderAttributes">CBaseModelEntity.RenderAttributes</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderToCubemaps">CBaseModelEntity.RenderToCubemaps</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Collision">CBaseModelEntity.Collision</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Glow">CBaseModelEntity.Glow</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_GlowBackfaceMult">CBaseModelEntity.GlowBackfaceMult</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeMinDist">CBaseModelEntity.FadeMinDist</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeMaxDist">CBaseModelEntity.FadeMaxDist</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeScale">CBaseModelEntity.FadeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ShadowStrength">CBaseModelEntity.ShadowStrength</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ObjectCulling">CBaseModelEntity.ObjectCulling</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_AddDecal">CBaseModelEntity.AddDecal</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalPosition">CBaseModelEntity.DecalPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalForwardAxis">CBaseModelEntity.DecalForwardAxis</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalHealBloodRate">CBaseModelEntity.DecalHealBloodRate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalHealHeightRate">CBaseModelEntity.DecalHealHeightRate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ConfigEntitiesToPropagateMaterialDecalsTo">CBaseModelEntity.ConfigEntitiesToPropagateMaterialDecalsTo</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ViewOffset">CBaseModelEntity.ViewOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Teleport_CounterStrikeSharp_API_Modules_Utils_Vector_CounterStrikeSharp_API_Modules_Utils_QAngle_CounterStrikeSharp_API_Modules_Utils_Vector_">CBaseEntity.Teleport(Vector, QAngle, Vector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DispatchSpawn">CBaseEntity.DispatchSpawn()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsOrigin">CBaseEntity.AbsOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsRotation">CBaseEntity.AbsRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CBodyComponent">CBaseEntity.CBodyComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkTransmitComponent">CBaseEntity.NetworkTransmitComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ThinkFunctions">CBaseEntity.ThinkFunctions</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CurrentThinkContext">CBaseEntity.CurrentThinkContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastThinkTick">CBaseEntity.LastThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_IsSteadyState">CBaseEntity.IsSteadyState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastNetworkChange">CBaseEntity.LastNetworkChange</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContexts">CBaseEntity.ResponseContexts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContext">CBaseEntity.ResponseContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Health">CBaseEntity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MaxHealth">CBaseEntity.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LifeState">CBaseEntity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageAccumulator">CBaseEntity.DamageAccumulator</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakesDamage">CBaseEntity.TakesDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakeDamageFlags">CBaseEntity.TakeDamageFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveCollide">CBaseEntity.MoveCollide</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveType">CBaseEntity.MoveType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterTouch">CBaseEntity.WaterTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SlimeTouch">CBaseEntity.SlimeTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_RestoreInHierarchy">CBaseEntity.RestoreInHierarchy</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Target">CBaseEntity.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveDoneTime">CBaseEntity.MoveDoneTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilter">CBaseEntity.DamageFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilterName">CBaseEntity.DamageFilterName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SubclassID">CBaseEntity.SubclassID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimTime">CBaseEntity.AnimTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTime">CBaseEntity.SimulationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CreateTime">CBaseEntity.CreateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ClientSideRagdoll">CBaseEntity.ClientSideRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InterpolationFrame">CBaseEntity.InterpolationFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PrevVPhysicsUpdatePos">CBaseEntity.PrevVPhysicsUpdatePos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TeamNum">CBaseEntity.TeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Globalname">CBaseEntity.Globalname</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SentToClients">CBaseEntity.SentToClients</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Speed">CBaseEntity.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_UniqueHammerID">CBaseEntity.UniqueHammerID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Spawnflags">CBaseEntity.Spawnflags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NextThinkTick">CBaseEntity.NextThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTick">CBaseEntity.SimulationTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnKilled">CBaseEntity.OnKilled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Flags">CBaseEntity.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsVelocity">CBaseEntity.AbsVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Velocity">CBaseEntity.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_BaseVelocity">CBaseEntity.BaseVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PushEnumCount">CBaseEntity.PushEnumCount</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EffectEntity">CBaseEntity.EffectEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OwnerEntity">CBaseEntity.OwnerEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Effects">CBaseEntity.Effects</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GroundEntity">CBaseEntity.GroundEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Friction">CBaseEntity.Friction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Elasticity">CBaseEntity.Elasticity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GravityScale">CBaseEntity.GravityScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TimeScale">CBaseEntity.TimeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterLevel">CBaseEntity.WaterLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulatedEveryTick">CBaseEntity.SimulatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimatedEveryTick">CBaseEntity.AnimatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DisableLowViolence">CBaseEntity.DisableLowViolence</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterType">CBaseEntity.WaterType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EFlags">CBaseEntity.EFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser1">CBaseEntity.OnUser1</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser2">CBaseEntity.OnUser2</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser3">CBaseEntity.OnUser3</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser4">CBaseEntity.OnUser4</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InitialTeamNum">CBaseEntity.InitialTeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NavIgnoreUntilTime">CBaseEntity.NavIgnoreUntilTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AngVelocity">CBaseEntity.AngVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkQuantizeOriginAndAngles">CBaseEntity.NetworkQuantizeOriginAndAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LagCompensate">CBaseEntity.LagCompensate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OverriddenFriction">CBaseEntity.OverriddenFriction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Blocker">CBaseEntity.Blocker</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LocalTime">CBaseEntity.LocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_VPhysicsUpdateLocalTime">CBaseEntity.VPhysicsUpdateLocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_IsValid">CEntityInstance.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_EntityIndex">CEntityInstance.EntityIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Index">CEntityInstance.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_DesignerName">CEntityInstance.DesignerName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Remove">CEntityInstance.Remove()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_CounterStrikeSharp_API_Core_CEntityInstance_">CEntityInstance.Equals(CEntityInstance)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_System_Object_">CEntityInstance.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_GetHashCode">CEntityInstance.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_PrivateVScripts">CEntityInstance.PrivateVScripts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Entity">CEntityInstance.Entity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_CScriptComponent">CEntityInstance.CScriptComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_Handle">NativeEntity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_EntityHandle">NativeEntity.EntityHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel__ctor_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.#ctor(System.IntPtr)">
+  CBaseViewModel(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CBaseViewModel(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationParity_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationParity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationParity" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationParity">
+  AnimationParity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref uint AnimationParity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationPrefix_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationPrefix*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationPrefix" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationPrefix">
+  AnimationPrefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AnimationPrefix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationStartTime_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationStartTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_AnimationStartTime" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.AnimationStartTime">
+  AnimationStartTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float AnimationStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_ControlPanel_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.ControlPanel*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_ControlPanel" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.ControlPanel">
+  ControlPanel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBaseEntity&gt; ControlPanel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_LastFacing_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.LastFacing*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_LastFacing" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.LastFacing">
+  LastFacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector LastFacing { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayer_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayer*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayer" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayer">
+  OldLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int OldLayer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayerSequence_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayerSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayerSequence" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayerSequence">
+  OldLayerSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int OldLayerSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayerStartTime_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayerStartTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_OldLayerStartTime" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.OldLayerStartTime">
+  OldLayerStartTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float OldLayerStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_VMName_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.VMName*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_VMName" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.VMName">
+  VMName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string VMName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_ViewModelIndex_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.ViewModelIndex*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_ViewModelIndex" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.ViewModelIndex">
+  ViewModelIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref uint ViewModelIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CBaseViewModel_Weapon_" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.Weapon*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CBaseViewModel_Weapon" data-uid="CounterStrikeSharp.API.Core.CBaseViewModel.Weapon">
+  Weapon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBasePlayerWeapon&gt; Weapon { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerWeapon.html">CBasePlayerWeapon</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L5136" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

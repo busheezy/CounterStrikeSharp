@@ -1,0 +1,2413 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CScriptedSequence
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CScriptedSequence
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Core_CScriptedSequence.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Core.CScriptedSequence%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Core.CScriptedSequence">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Core_CScriptedSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence" class="text-break">
+    Class CScriptedSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18573"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CScriptedSequence : CBaseEntity, IEquatable&lt;CEntityInstance&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeEntity.html">NativeEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a></div>
+      <div><span class="xref">CScriptedSequence</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Teleport_CounterStrikeSharp_API_Modules_Utils_Vector_CounterStrikeSharp_API_Modules_Utils_QAngle_CounterStrikeSharp_API_Modules_Utils_Vector_">CBaseEntity.Teleport(Vector, QAngle, Vector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DispatchSpawn">CBaseEntity.DispatchSpawn()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsOrigin">CBaseEntity.AbsOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsRotation">CBaseEntity.AbsRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CBodyComponent">CBaseEntity.CBodyComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkTransmitComponent">CBaseEntity.NetworkTransmitComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ThinkFunctions">CBaseEntity.ThinkFunctions</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CurrentThinkContext">CBaseEntity.CurrentThinkContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastThinkTick">CBaseEntity.LastThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_IsSteadyState">CBaseEntity.IsSteadyState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastNetworkChange">CBaseEntity.LastNetworkChange</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContexts">CBaseEntity.ResponseContexts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContext">CBaseEntity.ResponseContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Health">CBaseEntity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MaxHealth">CBaseEntity.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LifeState">CBaseEntity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageAccumulator">CBaseEntity.DamageAccumulator</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakesDamage">CBaseEntity.TakesDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakeDamageFlags">CBaseEntity.TakeDamageFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveCollide">CBaseEntity.MoveCollide</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveType">CBaseEntity.MoveType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterTouch">CBaseEntity.WaterTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SlimeTouch">CBaseEntity.SlimeTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_RestoreInHierarchy">CBaseEntity.RestoreInHierarchy</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Target">CBaseEntity.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveDoneTime">CBaseEntity.MoveDoneTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilter">CBaseEntity.DamageFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilterName">CBaseEntity.DamageFilterName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SubclassID">CBaseEntity.SubclassID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimTime">CBaseEntity.AnimTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTime">CBaseEntity.SimulationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CreateTime">CBaseEntity.CreateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ClientSideRagdoll">CBaseEntity.ClientSideRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InterpolationFrame">CBaseEntity.InterpolationFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PrevVPhysicsUpdatePos">CBaseEntity.PrevVPhysicsUpdatePos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TeamNum">CBaseEntity.TeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Globalname">CBaseEntity.Globalname</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SentToClients">CBaseEntity.SentToClients</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Speed">CBaseEntity.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_UniqueHammerID">CBaseEntity.UniqueHammerID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Spawnflags">CBaseEntity.Spawnflags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NextThinkTick">CBaseEntity.NextThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTick">CBaseEntity.SimulationTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnKilled">CBaseEntity.OnKilled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Flags">CBaseEntity.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsVelocity">CBaseEntity.AbsVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Velocity">CBaseEntity.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_BaseVelocity">CBaseEntity.BaseVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PushEnumCount">CBaseEntity.PushEnumCount</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Collision">CBaseEntity.Collision</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EffectEntity">CBaseEntity.EffectEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OwnerEntity">CBaseEntity.OwnerEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Effects">CBaseEntity.Effects</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GroundEntity">CBaseEntity.GroundEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Friction">CBaseEntity.Friction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Elasticity">CBaseEntity.Elasticity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GravityScale">CBaseEntity.GravityScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TimeScale">CBaseEntity.TimeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterLevel">CBaseEntity.WaterLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulatedEveryTick">CBaseEntity.SimulatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimatedEveryTick">CBaseEntity.AnimatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DisableLowViolence">CBaseEntity.DisableLowViolence</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterType">CBaseEntity.WaterType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EFlags">CBaseEntity.EFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser1">CBaseEntity.OnUser1</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser2">CBaseEntity.OnUser2</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser3">CBaseEntity.OnUser3</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser4">CBaseEntity.OnUser4</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InitialTeamNum">CBaseEntity.InitialTeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NavIgnoreUntilTime">CBaseEntity.NavIgnoreUntilTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AngVelocity">CBaseEntity.AngVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkQuantizeOriginAndAngles">CBaseEntity.NetworkQuantizeOriginAndAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LagCompensate">CBaseEntity.LagCompensate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OverriddenFriction">CBaseEntity.OverriddenFriction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Blocker">CBaseEntity.Blocker</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LocalTime">CBaseEntity.LocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_VPhysicsUpdateLocalTime">CBaseEntity.VPhysicsUpdateLocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_IsValid">CEntityInstance.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_EntityIndex">CEntityInstance.EntityIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Index">CEntityInstance.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_DesignerName">CEntityInstance.DesignerName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Remove">CEntityInstance.Remove()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_CounterStrikeSharp_API_Core_CEntityInstance_">CEntityInstance.Equals(CEntityInstance)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_System_Object_">CEntityInstance.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_GetHashCode">CEntityInstance.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_PrivateVScripts">CEntityInstance.PrivateVScripts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_CScriptComponent">CEntityInstance.CScriptComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_Handle">NativeEntity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_EntityHandle">NativeEntity.EntityHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence__ctor_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.#ctor(System.IntPtr)">
+  CScriptedSequence(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18575"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CScriptedSequence(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_AllowCustomInterruptConditions_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.AllowCustomInterruptConditions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_AllowCustomInterruptConditions" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.AllowCustomInterruptConditions">
+  AllowCustomInterruptConditions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18736"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool AllowCustomInterruptConditions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_AngRate_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.AngRate*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_AngRate" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.AngRate">
+  AngRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18685"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float AngRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_ConflictResponse_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ConflictResponse*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_ConflictResponse" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ConflictResponse">
+  ConflictResponse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18763"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref ScriptedConflictResponse_t ConflictResponse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.ScriptedConflictResponse_t.html">ScriptedConflictResponse_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Delay_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Delay*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Delay" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Delay">
+  Delay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18688"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int Delay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_DisableNPCCollisions_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DisableNPCCollisions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_DisableNPCCollisions" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DisableNPCCollisions">
+  DisableNPCCollisions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18664"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool DisableNPCCollisions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_DontAddModifiers_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DontAddModifiers*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_DontAddModifiers" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DontAddModifiers">
+  DontAddModifiers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool DontAddModifiers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_DontCancelOtherSequences_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DontCancelOtherSequences*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_DontCancelOtherSequences" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.DontCancelOtherSequences">
+  DontCancelOtherSequences
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18745"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool DontCancelOtherSequences { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_EnsureOnNavmeshOnFinish_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.EnsureOnNavmeshOnFinish*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_EnsureOnNavmeshOnFinish" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.EnsureOnNavmeshOnFinish">
+  EnsureOnNavmeshOnFinish
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18757"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool EnsureOnNavmeshOnFinish { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Entity_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Entity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Entity" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Entity">
+  Entity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18620"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Entity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Entry_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Entry*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Entry" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Entry">
+  Entry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18578"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Entry { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_ForceSynch_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForceSynch*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_ForceSynch" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForceSynch">
+  ForceSynch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18748"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool ForceSynch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_ForcedAnimatedEveryTick_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForcedAnimatedEveryTick*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_ForcedAnimatedEveryTick" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForcedAnimatedEveryTick">
+  ForcedAnimatedEveryTick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18715"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool ForcedAnimatedEveryTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_ForcedTarget_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForcedTarget*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_ForcedTarget" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ForcedTarget">
+  ForcedTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18742"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBaseAnimGraph&gt; ForcedTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html">CBaseAnimGraph</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IgnoreGravity_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IgnoreGravity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IgnoreGravity" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IgnoreGravity">
+  IgnoreGravity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18661"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IgnoreGravity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_InitiatedSelfDelete_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.InitiatedSelfDelete*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_InitiatedSelfDelete" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.InitiatedSelfDelete">
+  InitiatedSelfDelete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18730"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool InitiatedSelfDelete { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_InteractionMainEntity_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.InteractionMainEntity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_InteractionMainEntity" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.InteractionMainEntity">
+  InteractionMainEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18790"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBaseEntity&gt; InteractionMainEntity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Interruptable_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Interruptable*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Interruptable" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Interruptable">
+  Interruptable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18706"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool Interruptable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingAction_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingAction*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingAction" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingAction">
+  IsPlayingAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18643"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IsPlayingAction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingEntry_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingEntry*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingEntry" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingEntry">
+  IsPlayingEntry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18640"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IsPlayingEntry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingPostIdle_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingPostIdle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingPostIdle" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingPostIdle">
+  IsPlayingPostIdle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18646"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IsPlayingPostIdle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingPreIdle_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingPreIdle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IsPlayingPreIdle" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsPlayingPreIdle">
+  IsPlayingPreIdle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18637"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IsPlayingPreIdle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_IsTeleportingDueToMoveTo_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsTeleportingDueToMoveTo*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_IsTeleportingDueToMoveTo" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.IsTeleportingDueToMoveTo">
+  IsTeleportingDueToMoveTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18733"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool IsTeleportingDueToMoveTo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_KeepAnimgraphLockedPost_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.KeepAnimgraphLockedPost*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_KeepAnimgraphLockedPost" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.KeepAnimgraphLockedPost">
+  KeepAnimgraphLockedPost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18667"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool KeepAnimgraphLockedPost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_LastFoundEntity_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LastFoundEntity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_LastFoundEntity" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LastFoundEntity">
+  LastFoundEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18739"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBaseEntity&gt; LastFoundEntity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopActionSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopActionSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopActionSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopActionSequence">
+  LoopActionSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18652"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool LoopActionSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopPostIdleSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopPostIdleSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopPostIdleSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopPostIdleSequence">
+  LoopPostIdleSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18655"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool LoopPostIdleSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopPreIdleSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopPreIdleSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_LoopPreIdleSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.LoopPreIdleSequence">
+  LoopPreIdleSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18649"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool LoopPreIdleSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_MatOtherToMain_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MatOtherToMain*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_MatOtherToMain" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MatOtherToMain">
+  MatOtherToMain
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18787"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CTransform MatOtherToMain { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CTransform.html">CTransform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_ModifierToAddOnPlay_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ModifierToAddOnPlay*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_ModifierToAddOnPlay" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.ModifierToAddOnPlay">
+  ModifierToAddOnPlay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18606"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModifierToAddOnPlay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_MoveInterpTime_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MoveInterpTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_MoveInterpTime" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MoveInterpTime">
+  MoveInterpTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18682"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float MoveInterpTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_MoveTo_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MoveTo*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_MoveTo" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.MoveTo">
+  MoveTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18634"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref ScriptedMoveTo_t MoveTo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.ScriptedMoveTo_t.html">ScriptedMoveTo_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_NextCine_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.NextCine*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_NextCine" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.NextCine">
+  NextCine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18724"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CScriptedSequence&gt; NextCine { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CScriptedSequence.html">CScriptedSequence</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_NextScript_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.NextScript*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_NextScript" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.NextScript">
+  NextScript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18613"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NextScript { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnActionStartOrLoop_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnActionStartOrLoop*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnActionStartOrLoop" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnActionStartOrLoop">
+  OnActionStartOrLoop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18769"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnActionStartOrLoop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnBeginSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnBeginSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnBeginSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnBeginSequence">
+  OnBeginSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18766"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnBeginSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnCancelFailedSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnCancelFailedSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnCancelFailedSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnCancelFailedSequence">
+  OnCancelFailedSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18781"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnCancelFailedSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnCancelSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnCancelSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnCancelSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnCancelSequence">
+  OnCancelSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18778"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnCancelSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnDeathBehavior_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnDeathBehavior*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnDeathBehavior" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnDeathBehavior">
+  OnDeathBehavior
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18760"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref ScriptedOnDeath_t OnDeathBehavior { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.ScriptedOnDeath_t.html">ScriptedOnDeath_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnEndSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnEndSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnEndSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnEndSequence">
+  OnEndSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18772"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnEndSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnPostIdleEndSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnPostIdleEndSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnPostIdleEndSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnPostIdleEndSequence">
+  OnPostIdleEndSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18775"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CEntityIOOutput OnPostIdleEndSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_OnScriptEvent_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnScriptEvent*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_OnScriptEvent" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.OnScriptEvent">
+  OnScriptEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18784"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Span&lt;CEntityIOOutput&gt; OnScriptEvent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CEntityIOOutput.html">CEntityIOOutput</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Play_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Play*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Play" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Play">
+  Play
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Play { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PlayAnimFadeInTime_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PlayAnimFadeInTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PlayAnimFadeInTime" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PlayAnimFadeInTime">
+  PlayAnimFadeInTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18679"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float PlayAnimFadeInTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PlayerDeathBehavior_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PlayerDeathBehavior*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PlayerDeathBehavior" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PlayerDeathBehavior">
+  PlayerDeathBehavior
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18793"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int PlayerDeathBehavior { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PositionRelativeToOtherEntity_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PositionRelativeToOtherEntity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PositionRelativeToOtherEntity" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PositionRelativeToOtherEntity">
+  PositionRelativeToOtherEntity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18718"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool PositionRelativeToOtherEntity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PostIdle_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PostIdle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PostIdle" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PostIdle">
+  PostIdle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18599"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PostIdle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PreIdle_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PreIdle*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PreIdle" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PreIdle">
+  PreIdle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PreIdle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PrevAnimatedEveryTick_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PrevAnimatedEveryTick*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PrevAnimatedEveryTick" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PrevAnimatedEveryTick">
+  PrevAnimatedEveryTick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18712"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool PrevAnimatedEveryTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_PreventUpdateYawOnFinish_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PreventUpdateYawOnFinish*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_PreventUpdateYawOnFinish" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.PreventUpdateYawOnFinish">
+  PreventUpdateYawOnFinish
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18754"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool PreventUpdateYawOnFinish { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Radius_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Radius*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Radius" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Radius">
+  Radius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18673"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float Radius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Repeat_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Repeat*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Repeat" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Repeat">
+  Repeat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18676"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float Repeat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_SavedCollisionGroup_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SavedCollisionGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_SavedCollisionGroup" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SavedCollisionGroup">
+  SavedCollisionGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18703"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int SavedCollisionGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_SavedFlags_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SavedFlags*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_SavedFlags" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SavedFlags">
+  SavedFlags
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18700"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int SavedFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Saved_effects_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Saved_effects*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Saved_effects" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Saved_effects">
+  Saved_effects
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18697"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int Saved_effects { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_SequenceStarted_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SequenceStarted*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_SequenceStarted" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SequenceStarted">
+  SequenceStarted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18709"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool SequenceStarted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_StartTime_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.StartTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_StartTime" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.StartTime">
+  StartTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18691"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float StartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_SyncGroup_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SyncGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_SyncGroup" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SyncGroup">
+  SyncGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18627"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SyncGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_SynchPostIdles_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SynchPostIdles*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_SynchPostIdles" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.SynchPostIdles">
+  SynchPostIdles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18658"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool SynchPostIdles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_TargetEnt_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.TargetEnt*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_TargetEnt" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.TargetEnt">
+  TargetEnt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CHandle&lt;CBaseEntity&gt; TargetEnt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CHandle-1.html">CHandle</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_TargetWasAsleep_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.TargetWasAsleep*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_TargetWasAsleep" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.TargetWasAsleep">
+  TargetWasAsleep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18751"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool TargetWasAsleep { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_Thinking_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Thinking*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_Thinking" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.Thinking">
+  Thinking
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18727"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool Thinking { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CScriptedSequence_WaitForBeginSequence_" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.WaitForBeginSequence*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CScriptedSequence_WaitForBeginSequence" data-uid="CounterStrikeSharp.API.Core.CScriptedSequence.WaitForBeginSequence">
+  WaitForBeginSequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18694"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool WaitForBeginSequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L18573" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

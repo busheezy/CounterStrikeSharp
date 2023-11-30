@@ -1,0 +1,787 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Utilities
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Utilities
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Utilities.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Utilities%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Utilities">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Utilities" data-uid="CounterStrikeSharp.API.Utilities" class="text-break">
+    Class Utilities
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Utilities</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Utilities</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="CounterStrikeSharp_API_Utilities_InvalidEHandleIndex" data-uid="CounterStrikeSharp.API.Utilities.InvalidEHandleIndex">
+  InvalidEHandleIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const uint InvalidEHandleIndex = 4294967295</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CounterStrikeSharp_API_Utilities_MaxEdictBits" data-uid="CounterStrikeSharp.API.Utilities.MaxEdictBits">
+  MaxEdictBits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxEdictBits = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CounterStrikeSharp_API_Utilities_MaxEdicts" data-uid="CounterStrikeSharp.API.Utilities.MaxEdicts">
+  MaxEdicts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxEdicts = 32768</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CounterStrikeSharp_API_Utilities_NumEHandleSerialNumberBits" data-uid="CounterStrikeSharp.API.Utilities.NumEHandleSerialNumberBits">
+  NumEHandleSerialNumberBits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumEHandleSerialNumberBits = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Utilities_CreateEntityByName_" data-uid="CounterStrikeSharp.API.Utilities.CreateEntityByName*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_CreateEntityByName__1_System_String_" data-uid="CounterStrikeSharp.API.Utilities.CreateEntityByName``1(System.String)">
+  CreateEntityByName&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T? CreateEntityByName&lt;T&gt;(string name) where T : CBaseEntity</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_FindAllEntitiesByDesignerName_" data-uid="CounterStrikeSharp.API.Utilities.FindAllEntitiesByDesignerName*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_FindAllEntitiesByDesignerName__1_System_String_" data-uid="CounterStrikeSharp.API.Utilities.FindAllEntitiesByDesignerName``1(System.String)">
+  FindAllEntitiesByDesignerName&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindAllEntitiesByDesignerName&lt;T&gt;(string designerName) where T : CEntityInstance</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>designerName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_FlagsToList_" data-uid="CounterStrikeSharp.API.Utilities.FlagsToList*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_FlagsToList__1___0_" data-uid="CounterStrikeSharp.API.Utilities.FlagsToList``1(``0)">
+  FlagsToList&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FlagsToList&lt;T&gt;(this T flags) where T : Enum</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>flags</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetAllEntities_" data-uid="CounterStrikeSharp.API.Utilities.GetAllEntities*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetAllEntities" data-uid="CounterStrikeSharp.API.Utilities.GetAllEntities">
+  GetAllEntities()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CEntityInstance&gt; GetAllEntities()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetEntityFromIndex_" data-uid="CounterStrikeSharp.API.Utilities.GetEntityFromIndex*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetEntityFromIndex__1_System_Int32_" data-uid="CounterStrikeSharp.API.Utilities.GetEntityFromIndex``1(System.Int32)">
+  GetEntityFromIndex&lt;T&gt;(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetEntityFromIndex&lt;T&gt;(int index) where T : CEntityInstance</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetPlayerFromIndex_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromIndex*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetPlayerFromIndex_System_Int32_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromIndex(System.Int32)">
+  GetPlayerFromIndex(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CCSPlayerController GetPlayerFromIndex(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetPlayerFromSlot_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromSlot*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetPlayerFromSlot_System_Int32_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromSlot(System.Int32)">
+  GetPlayerFromSlot(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CCSPlayerController GetPlayerFromSlot(int slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetPlayerFromSteamId_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromSteamId*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetPlayerFromSteamId_System_UInt64_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromSteamId(System.UInt64)">
+  GetPlayerFromSteamId(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CCSPlayerController? GetPlayerFromSteamId(ulong steamId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetPlayerFromUserid_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromUserid*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetPlayerFromUserid_System_Int32_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayerFromUserid(System.Int32)">
+  GetPlayerFromUserid(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CCSPlayerController GetPlayerFromUserid(int userid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_GetPlayers_" data-uid="CounterStrikeSharp.API.Utilities.GetPlayers*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_GetPlayers" data-uid="CounterStrikeSharp.API.Utilities.GetPlayers">
+  GetPlayers()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a list of <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a> that are valid and have a valid <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html#CounterStrikeSharp_API_Core_CCSPlayerController_UserId">UserId</a> &gt;= 0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;CCSPlayerController&gt; GetPlayers()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_ProcessTargetString_" data-uid="CounterStrikeSharp.API.Utilities.ProcessTargetString*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_ProcessTargetString_System_String_CounterStrikeSharp_API_Core_CCSPlayerController_" data-uid="CounterStrikeSharp.API.Utilities.ProcessTargetString(System.String,CounterStrikeSharp.API.Core.CCSPlayerController)">
+  ProcessTargetString(string, CCSPlayerController)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TargetResult ProcessTargetString(string pattern, CCSPlayerController player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pattern</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Commands.Targeting.TargetResult.html">TargetResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_ReadStringUtf8_" data-uid="CounterStrikeSharp.API.Utilities.ReadStringUtf8*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_ReadStringUtf8_System_IntPtr_" data-uid="CounterStrikeSharp.API.Utilities.ReadStringUtf8(System.IntPtr)">
+  ReadStringUtf8(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadStringUtf8(nint ptr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ptr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Utilities_ReplyToCommand_" data-uid="CounterStrikeSharp.API.Utilities.ReplyToCommand*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Utilities_ReplyToCommand_CounterStrikeSharp_API_Core_CCSPlayerController_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Utilities.ReplyToCommand(CounterStrikeSharp.API.Core.CCSPlayerController,System.String,System.Boolean)">
+  ReplyToCommand(CCSPlayerController?, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void ReplyToCommand(CCSPlayerController? player, string msg, bool console = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>console</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Utilities.cs/#L29" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

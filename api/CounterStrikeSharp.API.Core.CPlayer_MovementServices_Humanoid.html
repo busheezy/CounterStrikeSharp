@@ -1,0 +1,717 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CPlayer_MovementServices_Humanoid
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CPlayer_MovementServices_Humanoid
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid" class="text-break">
+    Class CPlayer_MovementServices_Humanoid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16580"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CPlayer_MovementServices_Humanoid : CPlayer_MovementServices</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CPlayerPawnComponent.html">CPlayerPawnComponent</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html">CPlayer_MovementServices</a></div>
+      <div><span class="xref">CPlayer_MovementServices_Humanoid</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayer_MovementServices.html">CCSPlayer_MovementServices</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_Impulse">CPlayer_MovementServices.Impulse</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_Buttons">CPlayer_MovementServices.Buttons</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_QueuedButtonDownMask">CPlayer_MovementServices.QueuedButtonDownMask</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_QueuedButtonChangeMask">CPlayer_MovementServices.QueuedButtonChangeMask</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_ButtonDoublePressed">CPlayer_MovementServices.ButtonDoublePressed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_ButtonPressedCmdNumber">CPlayer_MovementServices.ButtonPressedCmdNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_LastCommandNumberProcessed">CPlayer_MovementServices.LastCommandNumberProcessed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_ToggleButtonDownMask">CPlayer_MovementServices.ToggleButtonDownMask</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_Maxspeed">CPlayer_MovementServices.Maxspeed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_ForceSubtickMoveWhen">CPlayer_MovementServices.ForceSubtickMoveWhen</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_ForwardMove">CPlayer_MovementServices.ForwardMove</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_LeftMove">CPlayer_MovementServices.LeftMove</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_UpMove">CPlayer_MovementServices.UpMove</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_LastMovementImpulses">CPlayer_MovementServices.LastMovementImpulses</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayer_MovementServices.html#CounterStrikeSharp_API_Core_CPlayer_MovementServices_OldViewAngles">CPlayer_MovementServices.OldViewAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayerPawnComponent.html#CounterStrikeSharp_API_Core_CPlayerPawnComponent_Pawn">CPlayerPawnComponent.Pawn</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CPlayerPawnComponent.html#CounterStrikeSharp_API_Core_CPlayerPawnComponent___m_pChainEntity">CPlayerPawnComponent.__m_pChainEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_Handle">NativeObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid__ctor_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.#ctor(System.IntPtr)">
+  CPlayer_MovementServices_Humanoid(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16582"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CPlayer_MovementServices_Humanoid(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_CrouchState_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.CrouchState*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_CrouchState" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.CrouchState">
+  CrouchState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16594"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref uint CrouchState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_CrouchTransitionStartTime_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.CrouchTransitionStartTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_CrouchTransitionStartTime" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.CrouchTransitionStartTime">
+  CrouchTransitionStartTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16597"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float CrouchTransitionStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Ducked_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Ducked*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Ducked" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Ducked">
+  Ducked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16600"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool Ducked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Ducking_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Ducking*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Ducking" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Ducking">
+  Ducking
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16603"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool Ducking { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_FallVelocity_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.FallVelocity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_FallVelocity" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.FallVelocity">
+  FallVelocity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float FallVelocity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_GroundNormal_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.GroundNormal*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_GroundNormal" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.GroundNormal">
+  GroundNormal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector GroundNormal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_InCrouch_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.InCrouch*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_InCrouch" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.InCrouch">
+  InCrouch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16591"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool InCrouch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_InDuckJump_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.InDuckJump*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_InDuckJump" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.InDuckJump">
+  InDuckJump
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16606"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref bool InDuckJump { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SmoothedVelocity_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SmoothedVelocity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SmoothedVelocity" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SmoothedVelocity">
+  SmoothedVelocity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16624"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector SmoothedVelocity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_StepSoundTime_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.StepSoundTime*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_StepSoundTime" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.StepSoundTime">
+  StepSoundTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float StepSoundTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Stepside_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Stepside*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_Stepside" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.Stepside">
+  Stepside
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16618"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int Stepside { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SurfaceFriction_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SurfaceFriction*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SurfaceFriction" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SurfaceFriction">
+  SurfaceFriction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16612"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref float SurfaceFriction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SurfaceProps_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SurfaceProps*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_SurfaceProps" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.SurfaceProps">
+  SurfaceProps
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16615"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUtlStringToken SurfaceProps { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Utils.CUtlStringToken.html">CUtlStringToken</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_TargetVolume_" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.TargetVolume*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CPlayer_MovementServices_Humanoid_TargetVolume" data-uid="CounterStrikeSharp.API.Core.CPlayer_MovementServices_Humanoid.TargetVolume">
+  TargetVolume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16621"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ref int TargetVolume { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L16580" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

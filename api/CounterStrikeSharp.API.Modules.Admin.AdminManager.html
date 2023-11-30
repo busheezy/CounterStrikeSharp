@@ -1,0 +1,1606 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AdminManager
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AdminManager
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Modules_Admin_AdminManager.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Modules.Admin.AdminManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Modules_Admin_AdminManager" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager" class="text-break">
+    Class AdminManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.html">Modules</a>.<a class="xref" href="CounterStrikeSharp.API.Modules.Admin.html">Admin</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AdminManager</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AdminManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPermissionOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPermissionOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPermissionOverride_System_String_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPermissionOverride(System.String,System.String[])">
+  AddPermissionOverride(string, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a new permission to a command override.
+This is not saved to &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPermissionOverride(string commandName, params string[] permissions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+    <dt><code>permissions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Permissions to add to the command override.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerPermissions_CounterStrikeSharp_API_Core_CCSPlayerController_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerPermissions(CounterStrikeSharp.API.Core.CCSPlayerController,System.String[])">
+  AddPlayerPermissions(CCSPlayerController?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily adds a permission flag to the player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlayerPermissions(CCSPlayerController? player, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller to add a flag to.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to add for the player.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerPermissions_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerPermissions(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String[])">
+  AddPlayerPermissions(SteamID, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily adds a permission flag to the player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlayerPermissions(SteamID steamId, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID to add a flag to.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to add for the player.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerToGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerToGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerToGroup_CounterStrikeSharp_API_Core_CCSPlayerController_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerToGroup(CounterStrikeSharp.API.Core.CCSPlayerController,System.String[])">
+  AddPlayerToGroup(CCSPlayerController?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a player to a group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlayerToGroup(CCSPlayerController? player, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Groups to add the player to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerToGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerToGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_AddPlayerToGroup_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.AddPlayerToGroup(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String[])">
+  AddPlayerToGroup(SteamID, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a player to a group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPlayerToGroup(SteamID steamId, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID of the player.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Groups to add the player to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CanPlayerTarget_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CanPlayerTarget*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CanPlayerTarget_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Core_CCSPlayerController_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CanPlayerTarget(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Core.CCSPlayerController)">
+  CanPlayerTarget(CCSPlayerController?, CCSPlayerController?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player can target another player based on their immunity value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanPlayerTarget(CCSPlayerController? caller, CCSPlayerController? target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>caller</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Caller of the command.</p>
+</dd>
+    <dt><code>target</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Target of the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CanPlayerTarget_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CanPlayerTarget*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CanPlayerTarget_CounterStrikeSharp_API_Modules_Entities_SteamID_CounterStrikeSharp_API_Modules_Entities_SteamID_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CanPlayerTarget(CounterStrikeSharp.API.Modules.Entities.SteamID,CounterStrikeSharp.API.Modules.Entities.SteamID)">
+  CanPlayerTarget(SteamID, SteamID)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player can target another player based on their immunity value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanPlayerTarget(SteamID caller, SteamID target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>caller</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Caller of the command.</p>
+</dd>
+    <dt><code>target</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Target of the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPermissionOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPermissionOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPermissionOverride_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPermissionOverride(System.String,System.Boolean)">
+  ClearPermissionOverride(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears all permissions from a command override.
+This is not saved to &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPermissionOverride(string commandName, bool disable = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+    <dt><code>disable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to disable the command override after clearing.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPlayerPermissions_CounterStrikeSharp_API_Core_CCSPlayerController_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPlayerPermissions(CounterStrikeSharp.API.Core.CCSPlayerController)">
+  ClearPlayerPermissions(CCSPlayerController?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily removes all permission flags from a player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPlayerPermissions(CCSPlayerController? player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller to remove flags from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_ClearPlayerPermissions_CounterStrikeSharp_API_Modules_Entities_SteamID_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.ClearPlayerPermissions(CounterStrikeSharp.API.Modules.Entities.SteamID)">
+  ClearPlayerPermissions(SteamID)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily removes all permission flags from a player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPlayerPermissions(SteamID steamId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID to remove flags from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CommandIsOverriden_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CommandIsOverriden*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_CommandIsOverriden_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.CommandIsOverriden(System.String)">
+  CommandIsOverriden(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a command has overriden permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CommandIsOverriden(string commandName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the command has overriden permissions, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_DeleteCommandOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.DeleteCommandOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_DeleteCommandOverride_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.DeleteCommandOverride(System.String)">
+  DeleteCommandOverride(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a command override.
+This is not saved to &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteCommandOverride(string commandName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetCommandOverrideData_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetCommandOverrideData*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetCommandOverrideData_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetCommandOverrideData(System.String)">
+  GetCommandOverrideData(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Grabs the data for a command override that was loaded from &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CommandData? GetCommandOverrideData(string commandName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Admin.CommandData.html">CommandData</a></dt>
+    <dd><p>CommandData class if found, null if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPermissionOverrides_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPermissionOverrides*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPermissionOverrides_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPermissionOverrides(System.String)">
+  GetPermissionOverrides(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Grabs the new, overriden flags for a command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetPermissionOverrides(string commandName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>If the command is valid, a valid array of flags.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerAdminData_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerAdminData*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerAdminData_CounterStrikeSharp_API_Modules_Entities_SteamID_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerAdminData(CounterStrikeSharp.API.Modules.Entities.SteamID)">
+  GetPlayerAdminData(SteamID)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Grabs the admin data for a player that was loaded from &quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AdminData? GetPlayerAdminData(SteamID steamId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID object of the player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Modules.Admin.AdminData.html">AdminData</a></dt>
+    <dd><p>AdminData class if data found, null if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerCommandOverrideState_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerCommandOverrideState*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerCommandOverrideState_CounterStrikeSharp_API_Core_CCSPlayerController_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerCommandOverrideState(CounterStrikeSharp.API.Core.CCSPlayerController,System.String)">
+  GetPlayerCommandOverrideState(CCSPlayerController?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the value of a command override state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetPlayerCommandOverrideState(CCSPlayerController? player, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player or server console.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if override is active, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerCommandOverrideState_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerCommandOverrideState*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_GetPlayerCommandOverrideState_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.GetPlayerCommandOverrideState(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String)">
+  GetPlayerCommandOverrideState(SteamID, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the value of a command override state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetPlayerCommandOverrideState(SteamID steamId, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID object.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if override is active, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadAdminData_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadAdminData*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadAdminData_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadAdminData(System.String)">
+  LoadAdminData(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadAdminData(string adminDataPath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>adminDataPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadAdminGroups_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadAdminGroups*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadAdminGroups_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadAdminGroups(System.String)">
+  LoadAdminGroups(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadAdminGroups(string adminGroupsPath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>adminGroupsPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadCommandOverrides_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadCommandOverrides*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_LoadCommandOverrides_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.LoadCommandOverrides(System.String)">
+  LoadCommandOverrides(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadCommandOverrides(string overridePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>overridePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_MergeGroupPermsIntoAdmins_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.MergeGroupPermsIntoAdmins*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_MergeGroupPermsIntoAdmins" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.MergeGroupPermsIntoAdmins">
+  MergeGroupPermsIntoAdmins()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MergeGroupPermsIntoAdmins()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasCommandOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasCommandOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasCommandOverride_CounterStrikeSharp_API_Core_CCSPlayerController_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasCommandOverride(CounterStrikeSharp.API.Core.CCSPlayerController,System.String)">
+  PlayerHasCommandOverride(CCSPlayerController?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player has a command override. This does NOT return the actual
+state of the override.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerHasCommandOverride(CCSPlayerController? player, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player or server console.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if override exists, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasCommandOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasCommandOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasCommandOverride_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasCommandOverride(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String)">
+  PlayerHasCommandOverride(SteamID, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player has a command override. This does NOT return the actual
+state of the override.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerHasCommandOverride(SteamID steamId, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID object.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if override exists, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasPermissions_CounterStrikeSharp_API_Core_CCSPlayerController_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasPermissions(CounterStrikeSharp.API.Core.CCSPlayerController,System.String[])">
+  PlayerHasPermissions(CCSPlayerController?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player has access to a certain set of permission flags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerHasPermissions(CCSPlayerController? player, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player or server console.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to look for in the players permission flags.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if flags are present, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerHasPermissions_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerHasPermissions(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String[])">
+  PlayerHasPermissions(SteamID, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if a player has access to a certain set of permission flags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerHasPermissions(SteamID steamId, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID object.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to look for in the players permission flags.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if flags are present, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerInGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerInGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerInGroup_CounterStrikeSharp_API_Core_CCSPlayerController_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerInGroup(CounterStrikeSharp.API.Core.CCSPlayerController,System.String[])">
+  PlayerInGroup(CCSPlayerController?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if the player is part of an admin group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerInGroup(CCSPlayerController? player, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Groups to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if a player is part of all of the groups provided, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerInGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerInGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_PlayerInGroup_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.PlayerInGroup(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String[])">
+  PlayerInGroup(SteamID, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks to see if the player is part of an admin group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PlayerInGroup(SteamID steamId, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID of the player.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Groups to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if a player is part of all of the groups provided, false if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePermissionOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePermissionOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePermissionOverride_System_String_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePermissionOverride(System.String,System.String[])">
+  RemovePermissionOverride(string, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a permission from a command override.
+This is not saved to &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePermissionOverride(string commandName, params string[] permissions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+    <dt><code>permissions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Permissions to remove from the command override.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerAdminData_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerAdminData*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerAdminData_CounterStrikeSharp_API_Modules_Entities_SteamID_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerAdminData(CounterStrikeSharp.API.Modules.Entities.SteamID)">
+  RemovePlayerAdminData(SteamID)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a players admin data. This is not saved to &quot;configs/admins.json&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlayerAdminData(SteamID steamId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID remove admin data from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerFromGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerFromGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerFromGroup_CounterStrikeSharp_API_Core_CCSPlayerController_System_Boolean_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerFromGroup(CounterStrikeSharp.API.Core.CCSPlayerController,System.Boolean,System.String[])">
+  RemovePlayerFromGroup(CCSPlayerController?, bool, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a player from a group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlayerFromGroup(CCSPlayerController? player, bool removeInheritedFlags = true, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller.</p>
+</dd>
+    <dt><code>removeInheritedFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, all of the flags that the player inherited from being in the group will be removed.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerFromGroup_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerFromGroup*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerFromGroup_CounterStrikeSharp_API_Modules_Entities_SteamID_System_Boolean_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerFromGroup(CounterStrikeSharp.API.Modules.Entities.SteamID,System.Boolean,System.String[])">
+  RemovePlayerFromGroup(SteamID, bool, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminGroup.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a player from a group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlayerFromGroup(SteamID steamId, bool removeInheritedFlags = true, params string[] groups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID of the player.</p>
+</dd>
+    <dt><code>removeInheritedFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, all of the flags that the player inherited from being in the group will be removed.</p>
+</dd>
+    <dt><code>groups</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerPermissions_CounterStrikeSharp_API_Core_CCSPlayerController_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerPermissions(CounterStrikeSharp.API.Core.CCSPlayerController,System.String[])">
+  RemovePlayerPermissions(CCSPlayerController?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily removes a permission flag to the player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlayerPermissions(CCSPlayerController? player, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller to remove flags from.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to remove from the player.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerPermissions_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerPermissions*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_RemovePlayerPermissions_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String___" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.RemovePlayerPermissions(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String[])">
+  RemovePlayerPermissions(SteamID, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily removes a permission flag to the player. These flags are not saved to
+&quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePlayerPermissions(SteamID steamId, params string[] flags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID to remove flags from.</p>
+</dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Flags to remove from the player.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetCommandOverideState_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetCommandOverideState*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetCommandOverideState_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetCommandOverideState(System.String,System.Boolean)">
+  SetCommandOverideState(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminCommandOverrides.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets a command override to be enabled or disabled.
+This is not saved to &quot;configs/admin_overrides.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetCommandOverideState(string commandName, bool state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command.</p>
+</dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>New state of the command override.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerCommandOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerCommandOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerCommandOverride_CounterStrikeSharp_API_Core_CCSPlayerController_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerCommandOverride(CounterStrikeSharp.API.Core.CCSPlayerController,System.String,System.Boolean)">
+  SetPlayerCommandOverride(CCSPlayerController?, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets a player command override. This is not saved to &quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlayerCommandOverride(CCSPlayerController? player, string command, bool state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player or server console.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>New state of the command override.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerCommandOverride_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerCommandOverride*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerCommandOverride_CounterStrikeSharp_API_Modules_Entities_SteamID_System_String_System_Boolean_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerCommandOverride(CounterStrikeSharp.API.Modules.Entities.SteamID,System.String,System.Boolean)">
+  SetPlayerCommandOverride(SteamID, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets a player command override. This is not saved to &quot;configs/admins.json&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlayerCommandOverride(SteamID steamId, string command, bool state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>SteamID to add a flag to.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the command to check for.</p>
+</dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>New state of the command override.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerImmunity_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerImmunity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerImmunity_CounterStrikeSharp_API_Core_CCSPlayerController_System_UInt32_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerImmunity(CounterStrikeSharp.API.Core.CCSPlayerController,System.UInt32)">
+  SetPlayerImmunity(CCSPlayerController?, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the immunity value for a player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlayerImmunity(CCSPlayerController? player, uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd><p>Player controller.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>New immunity value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerImmunity_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerImmunity*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Modules_Admin_AdminManager_SetPlayerImmunity_CounterStrikeSharp_API_Modules_Entities_SteamID_System_UInt32_" data-uid="CounterStrikeSharp.API.Modules.Admin.AdminManager.SetPlayerImmunity(CounterStrikeSharp.API.Modules.Entities.SteamID,System.UInt32)">
+  SetPlayerImmunity(SteamID, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the immunity value for a player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPlayerImmunity(SteamID steamId, uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamId</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Entities.SteamID.html">SteamID</a></dt>
+    <dd><p>Steam ID of the player.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>New immunity value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Modules/Admin/AdminPermissions.cs/#L26" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

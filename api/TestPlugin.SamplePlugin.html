@@ -1,0 +1,980 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SamplePlugin
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SamplePlugin
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=TestPlugin_SamplePlugin.md&amp;value=---%0Auid%3A%20TestPlugin.SamplePlugin%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TestPlugin.SamplePlugin">
+
+
+
+  <h1 id="TestPlugin_SamplePlugin" data-uid="TestPlugin.SamplePlugin" class="text-break">
+    Class SamplePlugin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TestPlugin.html">TestPlugin</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TestPlugin.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MinimumApiVersion(80)]
+public class SamplePlugin : BasePlugin, IPlugin, IDisposable, IPluginConfig&lt;SampleConfig&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html">BasePlugin</a></div>
+      <div><span class="xref">SamplePlugin</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.IPlugin.html">IPlugin</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.IPluginConfig-1.html">IPluginConfig</a>&lt;<a class="xref" href="TestPlugin.SampleConfig.html">SampleConfig</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_ModulePath">BasePlugin.ModulePath</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_ModuleDirectory">BasePlugin.ModuleDirectory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Logger">BasePlugin.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Unload_System_Boolean_">BasePlugin.Unload(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Handlers">BasePlugin.Handlers</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_CommandHandlers">BasePlugin.CommandHandlers</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_CommandListeners">BasePlugin.CommandListeners</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_ConvarChangeHandlers">BasePlugin.ConvarChangeHandlers</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Listeners">BasePlugin.Listeners</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Timers">BasePlugin.Timers</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RegisterEventHandler__1_CounterStrikeSharp_API_Core_BasePlugin_GameEventHandler___0__CounterStrikeSharp_API_Core_HookMode_">BasePlugin.RegisterEventHandler&lt;T&gt;(BasePlugin.GameEventHandler&lt;T&gt;, HookMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_DeregisterEventHandler_System_String_System_Delegate_System_Boolean_">BasePlugin.DeregisterEventHandler(string, Delegate, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_AddCommand_System_String_System_String_CounterStrikeSharp_API_Modules_Commands_CommandInfo_CommandCallback_">BasePlugin.AddCommand(string, string, CommandInfo.CommandCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_AddCommandListener_System_String_CounterStrikeSharp_API_Modules_Commands_CommandInfo_CommandListenerCallback_CounterStrikeSharp_API_Core_HookMode_">BasePlugin.AddCommandListener(string, CommandInfo.CommandListenerCallback, HookMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RemoveCommand_System_String_CounterStrikeSharp_API_Modules_Commands_CommandInfo_CommandCallback_">BasePlugin.RemoveCommand(string, CommandInfo.CommandCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RemoveCommandListener_System_String_CounterStrikeSharp_API_Modules_Commands_CommandInfo_CommandListenerCallback_CounterStrikeSharp_API_Core_HookMode_">BasePlugin.RemoveCommandListener(string, CommandInfo.CommandListenerCallback, HookMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RegisterListener__1___0_">BasePlugin.RegisterListener&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RemoveListener_System_String_System_Delegate_">BasePlugin.RemoveListener(string, Delegate)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_AddTimer_System_Single_System_Action_System_Nullable_CounterStrikeSharp_API_Modules_Timers_TimerFlags__">BasePlugin.AddTimer(float, Action, TimerFlags?)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RegisterAllAttributes_System_Object_">BasePlugin.RegisterAllAttributes(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_InitializeConfig_System_Object_System_Type_">BasePlugin.InitializeConfig(object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RegisterAttributeHandlers_System_Object_">BasePlugin.RegisterAttributeHandlers(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_RegisterConsoleCommandAttributeHandlers_System_Object_">BasePlugin.RegisterConsoleCommandAttributeHandlers(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Dispose">BasePlugin.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.BasePlugin.html#CounterStrikeSharp_API_Core_BasePlugin_Dispose_System_Boolean_">BasePlugin.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TestPlugin_SamplePlugin__ctor_" data-uid="TestPlugin.SamplePlugin.#ctor*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin__ctor_TestPlugin_TestInjectedClass_" data-uid="TestPlugin.SamplePlugin.#ctor(TestPlugin.TestInjectedClass)">
+  SamplePlugin(TestInjectedClass)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SamplePlugin(TestInjectedClass testInjectedClass)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>testInjectedClass</code> <a class="xref" href="TestPlugin.TestInjectedClass.html">TestInjectedClass</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TestPlugin_SamplePlugin_Config_" data-uid="TestPlugin.SamplePlugin.Config*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_Config" data-uid="TestPlugin.SamplePlugin.Config">
+  Config
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SampleConfig Config { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="TestPlugin.SampleConfig.html">SampleConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_ModuleAuthor_" data-uid="TestPlugin.SamplePlugin.ModuleAuthor*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_ModuleAuthor" data-uid="TestPlugin.SamplePlugin.ModuleAuthor">
+  ModuleAuthor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ModuleAuthor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_ModuleDescription_" data-uid="TestPlugin.SamplePlugin.ModuleDescription*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_ModuleDescription" data-uid="TestPlugin.SamplePlugin.ModuleDescription">
+  ModuleDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ModuleDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_ModuleName_" data-uid="TestPlugin.SamplePlugin.ModuleName*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_ModuleName" data-uid="TestPlugin.SamplePlugin.ModuleName">
+  ModuleName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Name of the plugin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ModuleName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_ModuleVersion_" data-uid="TestPlugin.SamplePlugin.ModuleVersion*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_ModuleVersion" data-uid="TestPlugin.SamplePlugin.ModuleVersion">
+  ModuleVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Module version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ModuleVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TestPlugin_SamplePlugin_Load_" data-uid="TestPlugin.SamplePlugin.Load*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_Load_System_Boolean_" data-uid="TestPlugin.SamplePlugin.Load(System.Boolean)">
+  Load(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method is called by CounterStrikeSharp on plugin load and should be treated as plugin constructor.
+Called with <code>true</code> on a hot reload (DLL file replaced in plugins folder)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Load(bool hotReload)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hotReload</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommand_" data-uid="TestPlugin.SamplePlugin.OnCommand*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommand_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommand(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommand(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;cssharp_attribute&quot;, &quot;This is a custom attribute event&quot;)]
+public void OnCommand(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandChangeMap_" data-uid="TestPlugin.SamplePlugin.OnCommandChangeMap*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandChangeMap_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandChangeMap(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandChangeMap(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L441"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_changelevel&quot;, &quot;Changes map&quot;)]
+public void OnCommandChangeMap(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandColors_" data-uid="TestPlugin.SamplePlugin.OnCommandColors*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandColors_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandColors(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandColors(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_colors&quot;, &quot;List Chat Colors&quot;)]
+public void OnCommandColors(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandEntities_" data-uid="TestPlugin.SamplePlugin.OnCommandEntities*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandEntities_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandEntities(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandEntities(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_entities&quot;, &quot;List entities&quot;)]
+public void OnCommandEntities(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandGive_" data-uid="TestPlugin.SamplePlugin.OnCommandGive*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandGive_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandGive(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandGive(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_give&quot;, &quot;Give named item&quot;)]
+public void OnCommandGive(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandGiveEnum_" data-uid="TestPlugin.SamplePlugin.OnCommandGiveEnum*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandGiveEnum_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandGiveEnum(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandGiveEnum(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_giveenum&quot;, &quot;giveenum&quot;)]
+public void OnCommandGiveEnum(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandGiveItems_" data-uid="TestPlugin.SamplePlugin.OnCommandGiveItems*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandGiveItems_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandGiveItems(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandGiveItems(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_give&quot;, &quot;give&quot;)]
+public void OnCommandGiveItems(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandGuns_" data-uid="TestPlugin.SamplePlugin.OnCommandGuns*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandGuns_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandGuns(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandGuns(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_guns&quot;, &quot;List guns&quot;)]
+public void OnCommandGuns(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandPause_" data-uid="TestPlugin.SamplePlugin.OnCommandPause*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandPause_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandPause(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandPause(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_pause&quot;, &quot;Pause Game&quot;)]
+public void OnCommandPause(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnCommandSound_" data-uid="TestPlugin.SamplePlugin.OnCommandSound*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnCommandSound_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnCommandSound(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnCommandSound(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_sound&quot;, &quot;Play a sound to client&quot;)]
+public void OnCommandSound(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnConfigParsed_" data-uid="TestPlugin.SamplePlugin.OnConfigParsed*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnConfigParsed_TestPlugin_SampleConfig_" data-uid="TestPlugin.SamplePlugin.OnConfigParsed(TestPlugin.SampleConfig)">
+  OnConfigParsed(SampleConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnConfigParsed(SampleConfig config)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="TestPlugin.SampleConfig.html">SampleConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnKillme_" data-uid="TestPlugin.SamplePlugin.OnKillme*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnKillme_CounterStrikeSharp_API_Core_CCSPlayerController_CounterStrikeSharp_API_Modules_Commands_CommandInfo_" data-uid="TestPlugin.SamplePlugin.OnKillme(CounterStrikeSharp.API.Core.CCSPlayerController,CounterStrikeSharp.API.Modules.Commands.CommandInfo)">
+  OnKillme(CCSPlayerController?, CommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConsoleCommand(&quot;css_killmeplease&quot;, &quot;Kills the player&quot;)]
+[ConsoleCommand(&quot;css_killme&quot;, &quot;Kills the player&quot;)]
+public void OnKillme(CCSPlayerController? player, CommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerController.html">CCSPlayerController</a></dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="CounterStrikeSharp.API.Modules.Commands.CommandInfo.html">CommandInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnPlayerConnect_" data-uid="TestPlugin.SamplePlugin.OnPlayerConnect*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnPlayerConnect_CounterStrikeSharp_API_Core_EventPlayerConnect_CounterStrikeSharp_API_Core_GameEventInfo_" data-uid="TestPlugin.SamplePlugin.OnPlayerConnect(CounterStrikeSharp.API.Core.EventPlayerConnect,CounterStrikeSharp.API.Core.GameEventInfo)">
+  OnPlayerConnect(EventPlayerConnect, GameEventInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[GameEventHandler(HookMode.Post)]
+public HookResult OnPlayerConnect(EventPlayerConnect @event, GameEventInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event</code> <a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerConnect.html">EventPlayerConnect</a></dt>
+    <dd></dd>
+    <dt><code>info</code> <a class="xref" href="CounterStrikeSharp.API.Core.GameEventInfo.html">GameEventInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.HookResult.html">HookResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestPlugin_SamplePlugin_OnPlayerConnectPre_" data-uid="TestPlugin.SamplePlugin.OnPlayerConnectPre*"></a>
+
+  <h3 id="TestPlugin_SamplePlugin_OnPlayerConnectPre_CounterStrikeSharp_API_Core_EventPlayerConnect_CounterStrikeSharp_API_Core_GameEventInfo_" data-uid="TestPlugin.SamplePlugin.OnPlayerConnectPre(CounterStrikeSharp.API.Core.EventPlayerConnect,CounterStrikeSharp.API.Core.GameEventInfo)">
+  OnPlayerConnectPre(EventPlayerConnect, GameEventInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[GameEventHandler(HookMode.Pre)]
+public HookResult OnPlayerConnectPre(EventPlayerConnect @event, GameEventInfo info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event</code> <a class="xref" href="CounterStrikeSharp.API.Core.EventPlayerConnect.html">EventPlayerConnect</a></dt>
+    <dd></dd>
+    <dt><code>info</code> <a class="xref" href="CounterStrikeSharp.API.Core.GameEventInfo.html">GameEventInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CounterStrikeSharp.API.Core.HookResult.html">HookResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/TestPlugin/TestPlugin.cs/#L45" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

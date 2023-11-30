@@ -1,0 +1,1144 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CCSObserverPawn
+ | CounterStrikeSharp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CCSObserverPawn
+ | CounterStrikeSharp ">
+      
+      <link rel="icon" href="../images/android-chrome-512x512.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/busheezy/CounterStrikeSharp/new/main/apiSpec/new?filename=CounterStrikeSharp_API_Core_CCSObserverPawn.md&amp;value=---%0Auid%3A%20CounterStrikeSharp.API.Core.CCSObserverPawn%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="CounterStrikeSharp">
+            CounterStrikeSharp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CounterStrikeSharp.API.Core.CCSObserverPawn">
+
+
+
+  <h1 id="CounterStrikeSharp_API_Core_CCSObserverPawn" data-uid="CounterStrikeSharp.API.Core.CCSObserverPawn" class="text-break">
+    Class CCSObserverPawn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L7326"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CounterStrikeSharp.html">CounterStrikeSharp</a>.<a class="xref" href="CounterStrikeSharp.API.html">API</a>.<a class="xref" href="CounterStrikeSharp.API.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CounterStrikeSharp.API.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CCSObserverPawn : CCSPlayerPawnBase, IEquatable&lt;CEntityInstance&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeObject.html">NativeObject</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.NativeEntity.html">NativeEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html">CBaseEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html">CBaseModelEntity</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html">CBaseAnimGraph</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html">CBaseFlex</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html">CBaseCombatCharacter</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html">CBasePlayerPawn</a></div>
+      <div><a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html">CCSPlayerPawnBase</a></div>
+      <div><span class="xref">CCSObserverPawn</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html">CEntityInstance</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_CTouchExpansionComponent">CCSPlayerPawnBase.CTouchExpansionComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_PingServices">CCSPlayerPawnBase.PingServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ViewModelServices">CCSPlayerPawnBase.ViewModelServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DisplayHistoryBits">CCSPlayerPawnBase.DisplayHistoryBits</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastAttackedTeammate">CCSPlayerPawnBase.LastAttackedTeammate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_OriginalController">CCSPlayerPawnBase.OriginalController</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_BlindUntilTime">CCSPlayerPawnBase.BlindUntilTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_BlindStartTime">CCSPlayerPawnBase.BlindStartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_AllowAutoFollowTime">CCSPlayerPawnBase.AllowAutoFollowTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_EntitySpottedState">CCSPlayerPawnBase.EntitySpottedState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_SpotRules">CCSPlayerPawnBase.SpotRules</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_PlayerState">CCSPlayerPawnBase.PlayerState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ChickenIdleSoundTimer">CCSPlayerPawnBase.ChickenIdleSoundTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ChickenJumpSoundTimer">CCSPlayerPawnBase.ChickenJumpSoundTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastBookmarkedPosition">CCSPlayerPawnBase.LastBookmarkedPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastDistanceTraveledNotice">CCSPlayerPawnBase.LastDistanceTraveledNotice</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_AccumulatedDistanceTraveled">CCSPlayerPawnBase.AccumulatedDistanceTraveled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastFriendlyFireDamageReductionRatio">CCSPlayerPawnBase.LastFriendlyFireDamageReductionRatio</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Respawning">CCSPlayerPawnBase.Respawning</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastPickupPriority">CCSPlayerPawnBase.LastPickupPriority</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastPickupPriorityTime">CCSPlayerPawnBase.LastPickupPriorityTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IsScoped">CCSPlayerPawnBase.IsScoped</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IsWalking">CCSPlayerPawnBase.IsWalking</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ResumeZoom">CCSPlayerPawnBase.ResumeZoom</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IsDefusing">CCSPlayerPawnBase.IsDefusing</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IsGrabbingHostage">CCSPlayerPawnBase.IsGrabbingHostage</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_BlockingUseActionInProgress">CCSPlayerPawnBase.BlockingUseActionInProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ImmuneToGunGameDamageTime">CCSPlayerPawnBase.ImmuneToGunGameDamageTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_GunGameImmunity">CCSPlayerPawnBase.GunGameImmunity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_MolotovDamageTime">CCSPlayerPawnBase.MolotovDamageTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HasMovedSinceSpawn">CCSPlayerPawnBase.HasMovedSinceSpawn</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_CanMoveDuringFreezePeriod">CCSPlayerPawnBase.CanMoveDuringFreezePeriod</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_GuardianTooFarDistFrac">CCSPlayerPawnBase.GuardianTooFarDistFrac</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NextGuardianTooFarHurtTime">CCSPlayerPawnBase.NextGuardianTooFarHurtTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DetectedByEnemySensorTime">CCSPlayerPawnBase.DetectedByEnemySensorTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DealtDamageToEnemyMostRecentTimestamp">CCSPlayerPawnBase.DealtDamageToEnemyMostRecentTimestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastEquippedHelmetTime">CCSPlayerPawnBase.LastEquippedHelmetTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastEquippedArmorTime">CCSPlayerPawnBase.LastEquippedArmorTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HeavyAssaultSuitCooldownRemaining">CCSPlayerPawnBase.HeavyAssaultSuitCooldownRemaining</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ResetArmorNextSpawn">CCSPlayerPawnBase.ResetArmorNextSpawn</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastBumpMineBumpTime">CCSPlayerPawnBase.LastBumpMineBumpTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_EmitSoundTime">CCSPlayerPawnBase.EmitSoundTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NumSpawns">CCSPlayerPawnBase.NumSpawns</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ShouldHaveCash">CCSPlayerPawnBase.ShouldHaveCash</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_InvalidSteamLogonDelayed">CCSPlayerPawnBase.InvalidSteamLogonDelayed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastAction">CCSPlayerPawnBase.LastAction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NameChangeHistory">CCSPlayerPawnBase.NameChangeHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastGivenDefuserTime">CCSPlayerPawnBase.LastGivenDefuserTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastGivenBombTime">CCSPlayerPawnBase.LastGivenBombTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HasNightVision">CCSPlayerPawnBase.HasNightVision</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NightVisionOn">CCSPlayerPawnBase.NightVisionOn</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NextRadarUpdateTime">CCSPlayerPawnBase.NextRadarUpdateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastMoneyUpdateTime">CCSPlayerPawnBase.LastMoneyUpdateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_MenuStringBuffer">CCSPlayerPawnBase.MenuStringBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IntroCamTime">CCSPlayerPawnBase.IntroCamTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_MyCollisionGroup">CCSPlayerPawnBase.MyCollisionGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_InNoDefuseArea">CCSPlayerPawnBase.InNoDefuseArea</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_KilledByTaser">CCSPlayerPawnBase.KilledByTaser</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_MoveState">CCSPlayerPawnBase.MoveState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_GrenadeParameterStashTime">CCSPlayerPawnBase.GrenadeParameterStashTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_GrenadeParametersStashed">CCSPlayerPawnBase.GrenadeParametersStashed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_StashedShootAngles">CCSPlayerPawnBase.StashedShootAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_StashedGrenadeThrowPosition">CCSPlayerPawnBase.StashedGrenadeThrowPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_StashedVelocity">CCSPlayerPawnBase.StashedVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ShootAngleHistory">CCSPlayerPawnBase.ShootAngleHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ThrowPositionHistory">CCSPlayerPawnBase.ThrowPositionHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_VelocityHistory">CCSPlayerPawnBase.VelocityHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DiedAirborne">CCSPlayerPawnBase.DiedAirborne</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_BombSiteIndex">CCSPlayerPawnBase.BombSiteIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_WhichBombZone">CCSPlayerPawnBase.WhichBombZone</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_InBombZoneTrigger">CCSPlayerPawnBase.InBombZoneTrigger</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_WasInBombZoneTrigger">CCSPlayerPawnBase.WasInBombZoneTrigger</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Direction">CCSPlayerPawnBase.Direction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ShotsFired">CCSPlayerPawnBase.ShotsFired</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ArmorValue">CCSPlayerPawnBase.ArmorValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_FlinchStack">CCSPlayerPawnBase.FlinchStack</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_VelocityModifier">CCSPlayerPawnBase.VelocityModifier</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HitHeading">CCSPlayerPawnBase.HitHeading</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HitBodyPart">CCSPlayerPawnBase.HitBodyPart</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HostagesKilled">CCSPlayerPawnBase.HostagesKilled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_TotalBulletForce">CCSPlayerPawnBase.TotalBulletForce</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_FlashDuration">CCSPlayerPawnBase.FlashDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_FlashMaxAlpha">CCSPlayerPawnBase.FlashMaxAlpha</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ProgressBarStartTime">CCSPlayerPawnBase.ProgressBarStartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ProgressBarDuration">CCSPlayerPawnBase.ProgressBarDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_WaitForNoAttack">CCSPlayerPawnBase.WaitForNoAttack</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LowerBodyYawTarget">CCSPlayerPawnBase.LowerBodyYawTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Strafing">CCSPlayerPawnBase.Strafing</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastStandingPos">CCSPlayerPawnBase.LastStandingPos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IgnoreLadderJumpTime">CCSPlayerPawnBase.IgnoreLadderJumpTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LadderSurpressionTimer">CCSPlayerPawnBase.LadderSurpressionTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastLadderNormal">CCSPlayerPawnBase.LastLadderNormal</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastLadderPos">CCSPlayerPawnBase.LastLadderPos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_ThirdPersonHeading">CCSPlayerPawnBase.ThirdPersonHeading</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_SlopeDropOffset">CCSPlayerPawnBase.SlopeDropOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_SlopeDropHeight">CCSPlayerPawnBase.SlopeDropHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HeadConstraintOffset">CCSPlayerPawnBase.HeadConstraintOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastWeaponFireUsercmd">CCSPlayerPawnBase.LastWeaponFireUsercmd</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_EyeAngles">CCSPlayerPawnBase.EyeAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_VCollisionInitted">CCSPlayerPawnBase.VCollisionInitted</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_StoredSpawnPosition">CCSPlayerPawnBase.StoredSpawnPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_StoredSpawnAngle">CCSPlayerPawnBase.StoredSpawnAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_IsSpawning">CCSPlayerPawnBase.IsSpawning</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HideTargetID">CCSPlayerPawnBase.HideTargetID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NumDangerZoneDamageHits">CCSPlayerPawnBase.NumDangerZoneDamageHits</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Hud_MiniScoreHidden">CCSPlayerPawnBase.Hud_MiniScoreHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Hud_RadarHidden">CCSPlayerPawnBase.Hud_RadarHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastKillerIndex">CCSPlayerPawnBase.LastKillerIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastConcurrentKilled">CCSPlayerPawnBase.LastConcurrentKilled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DeathCamMusic">CCSPlayerPawnBase.DeathCamMusic</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_AddonBits">CCSPlayerPawnBase.AddonBits</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_PrimaryAddon">CCSPlayerPawnBase.PrimaryAddon</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_SecondaryAddon">CCSPlayerPawnBase.SecondaryAddon</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_CurrentDeafnessFilter">CCSPlayerPawnBase.CurrentDeafnessFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NumEnemiesKilledThisSpawn">CCSPlayerPawnBase.NumEnemiesKilledThisSpawn</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NumEnemiesKilledThisRound">CCSPlayerPawnBase.NumEnemiesKilledThisRound</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_NumEnemiesAtRoundStart">CCSPlayerPawnBase.NumEnemiesAtRoundStart</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_WasNotKilledNaturally">CCSPlayerPawnBase.WasNotKilledNaturally</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_PlayerPatchEconIndices">CCSPlayerPawnBase.PlayerPatchEconIndices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DeathFlags">CCSPlayerPawnBase.DeathFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Pet">CCSPlayerPawnBase.Pet</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_CurrentEquipmentValue">CCSPlayerPawnBase.CurrentEquipmentValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_RoundStartEquipmentValue">CCSPlayerPawnBase.RoundStartEquipmentValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_FreezetimeEndEquipmentValue">CCSPlayerPawnBase.FreezetimeEndEquipmentValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_SurvivalTeamNumber">CCSPlayerPawnBase.SurvivalTeamNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_HasDeathInfo">CCSPlayerPawnBase.HasDeathInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DeathInfoTime">CCSPlayerPawnBase.DeathInfoTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_DeathInfoOrigin">CCSPlayerPawnBase.DeathInfoOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_KilledByHeadshot">CCSPlayerPawnBase.KilledByHeadshot</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastHitBox">CCSPlayerPawnBase.LastHitBox</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastHealth">CCSPlayerPawnBase.LastHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastCollisionCeiling">CCSPlayerPawnBase.LastCollisionCeiling</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_LastCollisionCeilingChangeTime">CCSPlayerPawnBase.LastCollisionCeilingChangeTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_Bot">CCSPlayerPawnBase.Bot</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_BotAllowActive">CCSPlayerPawnBase.BotAllowActive</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CCSPlayerPawnBase.html#CounterStrikeSharp_API_Core_CCSPlayerPawnBase_CommittingSuicideOnTeamChange">CCSPlayerPawnBase.CommittingSuicideOnTeamChange</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_CommitSuicide_System_Boolean_System_Boolean_">CBasePlayerPawn.CommitSuicide(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_WeaponServices">CBasePlayerPawn.WeaponServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_ItemServices">CBasePlayerPawn.ItemServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_AutoaimServices">CBasePlayerPawn.AutoaimServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_ObserverServices">CBasePlayerPawn.ObserverServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_WaterServices">CBasePlayerPawn.WaterServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_UseServices">CBasePlayerPawn.UseServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_FlashlightServices">CBasePlayerPawn.FlashlightServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_CameraServices">CBasePlayerPawn.CameraServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_MovementServices">CBasePlayerPawn.MovementServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_ServerViewAngleChanges">CBasePlayerPawn.ServerViewAngleChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_HighestGeneratedServerViewAngleChangeIndex">CBasePlayerPawn.HighestGeneratedServerViewAngleChangeIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_V_angle">CBasePlayerPawn.V_angle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_V_anglePrevious">CBasePlayerPawn.V_anglePrevious</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_HideHUD">CBasePlayerPawn.HideHUD</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_Skybox3d">CBasePlayerPawn.Skybox3d</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_TimeLastHurt">CBasePlayerPawn.TimeLastHurt</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_DeathTime">CBasePlayerPawn.DeathTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_NextSuicideTime">CBasePlayerPawn.NextSuicideTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_InitHUD">CBasePlayerPawn.InitHUD</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_Expresser">CBasePlayerPawn.Expresser</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_Controller">CBasePlayerPawn.Controller</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_HltvReplayDelay">CBasePlayerPawn.HltvReplayDelay</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_HltvReplayEnd">CBasePlayerPawn.HltvReplayEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBasePlayerPawn.html#CounterStrikeSharp_API_Core_CBasePlayerPawn_HltvReplayEntity">CBasePlayerPawn.HltvReplayEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_ForceServerRagdoll">CBaseCombatCharacter.ForceServerRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_MyWearables">CBaseCombatCharacter.MyWearables</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_FieldOfView">CBaseCombatCharacter.FieldOfView</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_ImpactEnergyScale">CBaseCombatCharacter.ImpactEnergyScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_LastHitGroup">CBaseCombatCharacter.LastHitGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_ApplyStressDamage">CBaseCombatCharacter.ApplyStressDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_BloodColor">CBaseCombatCharacter.BloodColor</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_NavMeshID">CBaseCombatCharacter.NavMeshID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_DamageCount">CBaseCombatCharacter.DamageCount</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_StrRelationships">CBaseCombatCharacter.StrRelationships</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_Hull">CBaseCombatCharacter.Hull</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseCombatCharacter.html#CounterStrikeSharp_API_Core_CBaseCombatCharacter_NavHullIdx">CBaseCombatCharacter.NavHullIdx</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_FlexWeight">CBaseFlex.FlexWeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_LookTargetPosition">CBaseFlex.LookTargetPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_Blinktoggle">CBaseFlex.Blinktoggle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_AllowResponsesEndTime">CBaseFlex.AllowResponsesEndTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_LastFlexAnimationTime">CBaseFlex.LastFlexAnimationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_NextSceneEventId">CBaseFlex.NextSceneEventId</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseFlex.html#CounterStrikeSharp_API_Core_CBaseFlex_UpdateLayerPriorities">CBaseFlex.UpdateLayerPriorities</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_InitiallyPopulateInterpHistory">CBaseAnimGraph.InitiallyPopulateInterpHistory</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ShouldAnimateDuringGameplayPause">CBaseAnimGraph.ShouldAnimateDuringGameplayPause</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ChoreoServices">CBaseAnimGraph.ChoreoServices</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_AnimGraphUpdateEnabled">CBaseAnimGraph.AnimGraphUpdateEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_MaxSlopeDistance">CBaseAnimGraph.MaxSlopeDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_LastSlopeCheckPos">CBaseAnimGraph.LastSlopeCheckPos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_AnimGraphDirty">CBaseAnimGraph.AnimGraphDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_Force">CBaseAnimGraph.Force</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ForceBone">CBaseAnimGraph.ForceBone</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_RagdollPose">CBaseAnimGraph.RagdollPose</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseAnimGraph.html#CounterStrikeSharp_API_Core_CBaseAnimGraph_ClientRagdoll">CBaseAnimGraph.ClientRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_SetModel_System_String_">CBaseModelEntity.SetModel(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_CRenderComponent">CBaseModelEntity.CRenderComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_CHitboxComponent">CBaseModelEntity.CHitboxComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DissolveStartTime">CBaseModelEntity.DissolveStartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_OnIgnite">CBaseModelEntity.OnIgnite</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderMode">CBaseModelEntity.RenderMode</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderFX">CBaseModelEntity.RenderFX</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_AllowFadeInView">CBaseModelEntity.AllowFadeInView</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Render">CBaseModelEntity.Render</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderAttributes">CBaseModelEntity.RenderAttributes</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_RenderToCubemaps">CBaseModelEntity.RenderToCubemaps</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Collision">CBaseModelEntity.Collision</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_Glow">CBaseModelEntity.Glow</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_GlowBackfaceMult">CBaseModelEntity.GlowBackfaceMult</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeMinDist">CBaseModelEntity.FadeMinDist</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeMaxDist">CBaseModelEntity.FadeMaxDist</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_FadeScale">CBaseModelEntity.FadeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ShadowStrength">CBaseModelEntity.ShadowStrength</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ObjectCulling">CBaseModelEntity.ObjectCulling</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_AddDecal">CBaseModelEntity.AddDecal</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalPosition">CBaseModelEntity.DecalPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalForwardAxis">CBaseModelEntity.DecalForwardAxis</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalHealBloodRate">CBaseModelEntity.DecalHealBloodRate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_DecalHealHeightRate">CBaseModelEntity.DecalHealHeightRate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ConfigEntitiesToPropagateMaterialDecalsTo">CBaseModelEntity.ConfigEntitiesToPropagateMaterialDecalsTo</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseModelEntity.html#CounterStrikeSharp_API_Core_CBaseModelEntity_ViewOffset">CBaseModelEntity.ViewOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Teleport_CounterStrikeSharp_API_Modules_Utils_Vector_CounterStrikeSharp_API_Modules_Utils_QAngle_CounterStrikeSharp_API_Modules_Utils_Vector_">CBaseEntity.Teleport(Vector, QAngle, Vector)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DispatchSpawn">CBaseEntity.DispatchSpawn()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsOrigin">CBaseEntity.AbsOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsRotation">CBaseEntity.AbsRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CBodyComponent">CBaseEntity.CBodyComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkTransmitComponent">CBaseEntity.NetworkTransmitComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ThinkFunctions">CBaseEntity.ThinkFunctions</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CurrentThinkContext">CBaseEntity.CurrentThinkContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastThinkTick">CBaseEntity.LastThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_IsSteadyState">CBaseEntity.IsSteadyState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LastNetworkChange">CBaseEntity.LastNetworkChange</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContexts">CBaseEntity.ResponseContexts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ResponseContext">CBaseEntity.ResponseContext</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Health">CBaseEntity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MaxHealth">CBaseEntity.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LifeState">CBaseEntity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageAccumulator">CBaseEntity.DamageAccumulator</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakesDamage">CBaseEntity.TakesDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TakeDamageFlags">CBaseEntity.TakeDamageFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveCollide">CBaseEntity.MoveCollide</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveType">CBaseEntity.MoveType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterTouch">CBaseEntity.WaterTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SlimeTouch">CBaseEntity.SlimeTouch</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_RestoreInHierarchy">CBaseEntity.RestoreInHierarchy</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Target">CBaseEntity.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_MoveDoneTime">CBaseEntity.MoveDoneTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilter">CBaseEntity.DamageFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DamageFilterName">CBaseEntity.DamageFilterName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SubclassID">CBaseEntity.SubclassID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimTime">CBaseEntity.AnimTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTime">CBaseEntity.SimulationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_CreateTime">CBaseEntity.CreateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_ClientSideRagdoll">CBaseEntity.ClientSideRagdoll</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InterpolationFrame">CBaseEntity.InterpolationFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PrevVPhysicsUpdatePos">CBaseEntity.PrevVPhysicsUpdatePos</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TeamNum">CBaseEntity.TeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Globalname">CBaseEntity.Globalname</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SentToClients">CBaseEntity.SentToClients</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Speed">CBaseEntity.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_UniqueHammerID">CBaseEntity.UniqueHammerID</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Spawnflags">CBaseEntity.Spawnflags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NextThinkTick">CBaseEntity.NextThinkTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulationTick">CBaseEntity.SimulationTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnKilled">CBaseEntity.OnKilled</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Flags">CBaseEntity.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AbsVelocity">CBaseEntity.AbsVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Velocity">CBaseEntity.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_BaseVelocity">CBaseEntity.BaseVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_PushEnumCount">CBaseEntity.PushEnumCount</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EffectEntity">CBaseEntity.EffectEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OwnerEntity">CBaseEntity.OwnerEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Effects">CBaseEntity.Effects</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GroundEntity">CBaseEntity.GroundEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Friction">CBaseEntity.Friction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Elasticity">CBaseEntity.Elasticity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_GravityScale">CBaseEntity.GravityScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_TimeScale">CBaseEntity.TimeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterLevel">CBaseEntity.WaterLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_SimulatedEveryTick">CBaseEntity.SimulatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AnimatedEveryTick">CBaseEntity.AnimatedEveryTick</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_DisableLowViolence">CBaseEntity.DisableLowViolence</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_WaterType">CBaseEntity.WaterType</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_EFlags">CBaseEntity.EFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser1">CBaseEntity.OnUser1</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser2">CBaseEntity.OnUser2</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser3">CBaseEntity.OnUser3</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OnUser4">CBaseEntity.OnUser4</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_InitialTeamNum">CBaseEntity.InitialTeamNum</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NavIgnoreUntilTime">CBaseEntity.NavIgnoreUntilTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_AngVelocity">CBaseEntity.AngVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_NetworkQuantizeOriginAndAngles">CBaseEntity.NetworkQuantizeOriginAndAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LagCompensate">CBaseEntity.LagCompensate</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_OverriddenFriction">CBaseEntity.OverriddenFriction</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_Blocker">CBaseEntity.Blocker</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_LocalTime">CBaseEntity.LocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CBaseEntity.html#CounterStrikeSharp_API_Core_CBaseEntity_VPhysicsUpdateLocalTime">CBaseEntity.VPhysicsUpdateLocalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_IsValid">CEntityInstance.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_EntityIndex">CEntityInstance.EntityIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Index">CEntityInstance.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_DesignerName">CEntityInstance.DesignerName</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Remove">CEntityInstance.Remove()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_CounterStrikeSharp_API_Core_CEntityInstance_">CEntityInstance.Equals(CEntityInstance)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Equals_System_Object_">CEntityInstance.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_GetHashCode">CEntityInstance.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_PrivateVScripts">CEntityInstance.PrivateVScripts</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_Entity">CEntityInstance.Entity</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.Core.CEntityInstance.html#CounterStrikeSharp_API_Core_CEntityInstance_CScriptComponent">CEntityInstance.CScriptComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_Handle">NativeEntity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeEntity.html#CounterStrikeSharp_API_NativeEntity_EntityHandle">NativeEntity.EntityHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="CounterStrikeSharp.API.NativeObject.html#CounterStrikeSharp_API_NativeObject_As__1">NativeObject.As&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CounterStrikeSharp_API_Core_CCSObserverPawn__ctor_" data-uid="CounterStrikeSharp.API.Core.CCSObserverPawn.#ctor*"></a>
+
+  <h3 id="CounterStrikeSharp_API_Core_CCSObserverPawn__ctor_System_IntPtr_" data-uid="CounterStrikeSharp.API.Core.CCSObserverPawn.#ctor(System.IntPtr)">
+  CCSObserverPawn(nint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L7328"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CCSObserverPawn(nint pointer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pointer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/busheezy/CounterStrikeSharp/blob/main/managed/CounterStrikeSharp.API/Core/Objects.g.cs/#L7326" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
