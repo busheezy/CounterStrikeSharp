@@ -22,6 +22,7 @@
 #include "core/memory.h"
 #include "core/log.h"
 #include "core/managers/player_manager.h"
+#include "core/managers/entity_manager.h"
 
 #include <public/entity2/entitysystem.h>
 
@@ -132,15 +133,20 @@ unsigned long GetPlayerAuthorizedSteamID(ScriptContext& script_context) {
     return pSteamId->ConvertToUint64();
 }
 
-const char* GetPlayerIpAddress(ScriptContext& script_context) {
-    auto iSlot = script_context.GetArgument<int>(0);
+void HookEntityOutput(ScriptContext& script_context)
+{
+    auto szClassname = script_context.GetArgument<const char*>(0);
+    auto szOutput = script_context.GetArgument<const char*>(1);
+    auto callback = script_context.GetArgument<CallbackT>(2);
+    globals::entityManager.HookEntityOutput(szClassname, szOutput, callback);
+}
 
-    auto pPlayer = globals::playerManager.GetPlayerBySlot(iSlot);
-    if (pPlayer == nullptr) {
-        return nullptr;
-    }
-
-    return pPlayer->GetIpAddress();
+void UnhookEntityOutput(ScriptContext& script_context)
+{
+    auto szClassname = script_context.GetArgument<const char*>(0);
+    auto szOutput = script_context.GetArgument<const char*>(1);
+    auto callback = script_context.GetArgument<CallbackT>(2);
+    globals::entityManager.UnhookEntityOutput(szClassname, szOutput, callback);
 }
 
 REGISTER_NATIVES(entities, {
@@ -156,6 +162,7 @@ REGISTER_NATIVES(entities, {
     ScriptEngine::RegisterNativeHandler("PRINT_TO_CONSOLE", PrintToConsole);
     ScriptEngine::RegisterNativeHandler("GET_FIRST_ACTIVE_ENTITY", GetFirstActiveEntity);
     ScriptEngine::RegisterNativeHandler("GET_PLAYER_AUTHORIZED_STEAMID", GetPlayerAuthorizedSteamID);
-    ScriptEngine::RegisterNativeHandler("GET_PLAYER_IP_ADDRESS", GetPlayerIpAddress);
+    ScriptEngine::RegisterNativeHandler("HOOK_ENTITY_OUTPUT", HookEntityOutput);
+    ScriptEngine::RegisterNativeHandler("UNHOOK_ENTITY_OUTPUT", UnhookEntityOutput);
 })
 }  // namespace counterstrikesharp

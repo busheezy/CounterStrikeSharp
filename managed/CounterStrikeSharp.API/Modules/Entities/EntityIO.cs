@@ -13,19 +13,27 @@
  *  You should have received a copy of the GNU General Public License
  *  along with CounterStrikeSharp.  If not, see <https://www.gnu.org/licenses/>. *
  */
-#include "core/globals.h"
-#include "core/log.h"
-#include "core/managers/server_manager.h"
-#include "scripting/autonative.h"
 
-namespace counterstrikesharp {
+namespace CounterStrikeSharp.API.Modules.Entities
+{
+    public class EntityIO
+    {
+        public delegate void EntityOutputHandler(string name, CEntityInstance activator, CEntityInstance caller, float delay);
 
-static void *GetEconItemSystem(ScriptContext& scriptContext) {
-    return globals::serverManager.GetEconItemSystem();
-}
+        internal class EntityOutputCallback
+        {
+            public string Classname;
 
-REGISTER_NATIVES(server, {
-    ScriptEngine::RegisterNativeHandler("GET_ECON_ITEM_SYSTEM", GetEconItemSystem);
-})
+            public string Output;
 
+            public EntityOutputHandler Handler;
+
+            public EntityOutputCallback(string classname, string output, EntityOutputHandler handler)
+            {
+                Classname = classname;
+                Output = output;
+                Handler = handler;
+            }
+        }
+    }
 }
